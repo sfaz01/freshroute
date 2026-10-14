@@ -1,5 +1,7 @@
 # FreshRoute — dispatch decisions, with receipts
 
+**▶ Live app: https://sfaz01.github.io/freshroute/** — runs entirely in your browser; click *Generate dispatch plan*.
+
 **PS 03 · Intelligent decision support for perishable produce distribution.**
 
 FreshRoute is a dispatch desk for a produce consolidation hub. Every night it decides **which batches leave, where they go,

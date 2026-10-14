@@ -1,0 +1,2248 @@
+{
+  "generatedBy": "npm run evaluate",
+  "solver": "HiGHS 1.15.1",
+  "futuresPerScenario": 100,
+  "named": [
+    {
+      "id": "ordinary-day",
+      "name": "Ordinary day",
+      "tests": "Ordinary operating conditions",
+      "inventoryKg": 120400,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 2046294,
+        "spoiledKg": 17720,
+        "spoilageRate": 0.14717607973421926,
+        "fulfilment": 0.5965338770388958,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 2356646.4694045265,
+        "spoiledKg": 11895.883999999998,
+        "spoilageRate": 0.09880302325581394,
+        "fulfilment": 0.5995811245294858,
+        "minDestinationFill": 0,
+        "markdownKg": 5435.526563074708,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 3098108.937596977,
+        "spoiledKg": 6540.192,
+        "spoilageRate": 0.05432053156146179,
+        "fulfilment": 0.6092374843161857,
+        "minDestinationFill": 0,
+        "markdownKg": 24148.294464072424,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 250.79200000000003,
+      "consistencyGap": 0.3285236689262092,
+      "stress": {
+        "futures": 100,
+        "fefo": 1333505.1515540252,
+        "clearance": 1485154.5672060829,
+        "optimizer": 1831934.775019255,
+        "optimizerP05": 1239791.279009166,
+        "clearanceP05": 983361.4995811459
+      }
+    },
+    {
+      "id": "harvest-glut",
+      "name": "Harvest glut",
+      "tests": "Inventory exceeds demand",
+      "inventoryKg": 192640,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 1671988,
+        "spoiledKg": 49960,
+        "spoilageRate": 0.259343853820598,
+        "fulfilment": 0.6170796737766625,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 2051655.6777440603,
+        "spoiledKg": 42015.6,
+        "spoilageRate": 0.21810423588039865,
+        "fulfilment": 0.6201269212672523,
+        "minDestinationFill": 0,
+        "markdownKg": 7555.810563074709,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 3466528.340648342,
+        "spoiledKg": 28523.637000000002,
+        "spoilageRate": 0.1480670525332226,
+        "fulfilment": 0.6812008234002509,
+        "minDestinationFill": 0,
+        "markdownKg": 34308.02563244317,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 201.68280000000004,
+      "consistencyGap": 0.42112968070432544,
+      "stress": {
+        "futures": 100,
+        "fefo": 924271.3745110817,
+        "clearance": 1102068.812935094,
+        "optimizer": 1773130.4916714486,
+        "optimizerP05": 1008216.2580690103,
+        "clearanceP05": 468276.51394738187
+      }
+    },
+    {
+      "id": "short-supply",
+      "name": "Short supply",
+      "tests": "Demand exceeds inventory",
+      "inventoryKg": 60200,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 1489497,
+        "spoiledKg": 3930,
+        "spoilageRate": 0.06528239202657807,
+        "fulfilment": 0.40111355081555833,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1695500.9681331897,
+        "spoiledKg": 450,
+        "spoilageRate": 0.007475083056478406,
+        "fulfilment": 0.40151425658720197,
+        "minDestinationFill": 0,
+        "markdownKg": 3428.899266543805,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1842334.2953005072,
+        "spoiledKg": 481.5929999999998,
+        "spoilageRate": 0.00799988372093023,
+        "fulfilment": 0.3754100768506901,
+        "minDestinationFill": 0,
+        "markdownKg": 10433.200358633607,
+        "trucks": 13,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 154.79959999999983,
+      "consistencyGap": 0.160405982285738,
+      "stress": {
+        "futures": 100,
+        "fefo": 1084821.685325619,
+        "clearance": 1201935.8624631532,
+        "optimizer": 1132196.1145510583,
+        "optimizerP05": 751440.4173293593,
+        "clearanceP05": 909611.4989707945
+      }
+    },
+    {
+      "id": "fleet-crunch",
+      "name": "Fleet crunch",
+      "tests": "Insufficient transport capacity",
+      "inventoryKg": 120400,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 1149770,
+        "spoiledKg": 25420,
+        "spoilageRate": 0.21112956810631228,
+        "fulfilment": 0.3590809284818068,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1330741.617883076,
+        "spoiledKg": 21363.382,
+        "spoilageRate": 0.17743672757475085,
+        "fulfilment": 0.3590809284818068,
+        "minDestinationFill": 0,
+        "markdownKg": 4056.6156164221397,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2234297.758898685,
+        "spoiledKg": 22279.384,
+        "spoilageRate": 0.18504471760797342,
+        "fulfilment": 0.43777737609786693,
+        "minDestinationFill": 0,
+        "markdownKg": 20987.47512230767,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 72.06840000000011,
+      "consistencyGap": 0.2423906777985394,
+      "stress": {
+        "futures": 100,
+        "fefo": 702205.377253502,
+        "clearance": 783446.8189866584,
+        "optimizer": 1140560.7368340166,
+        "optimizerP05": 590861.9358778459,
+        "clearanceP05": 410892.7475768755
+      }
+    },
+    {
+      "id": "heatwave",
+      "name": "Heatwave",
+      "tests": "Highly perishable stock that can only reach some destinations",
+      "inventoryKg": 120400,
+      "demandKg": 127520,
+      "fefo": {
+        "net": -914276,
+        "spoiledKg": 66800,
+        "spoilageRate": 0.5548172757475083,
+        "fulfilment": 0.30834378920953576,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": -33843.259117476875,
+        "spoiledKg": 51179.03300000001,
+        "spoilageRate": 0.4250750249169436,
+        "fulfilment": 0.30834378920953576,
+        "minDestinationFill": 0,
+        "markdownKg": 15620.961968538917,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 326960.9612442243,
+        "spoiledKg": 47041.014,
+        "spoilageRate": 0.39070609634551495,
+        "fulfilment": 0.23787594887076535,
+        "minDestinationFill": 0,
+        "markdownKg": 23554.23895137759,
+        "trucks": 18,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 29.115299999999934,
+      "consistencyGap": 0.15260890556965023,
+      "stress": {
+        "futures": 100,
+        "fefo": -1138657.4325892944,
+        "clearance": -651335.5679792331,
+        "optimizer": -401849.6102434591,
+        "optimizerP05": -846667.9784825009,
+        "clearanceP05": -1089278.7404188025
+      }
+    },
+    {
+      "id": "highway-delay",
+      "name": "Highway delays",
+      "tests": "Delayed shipments",
+      "inventoryKg": 120400,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 2055374,
+        "spoiledKg": 17720,
+        "spoilageRate": 0.14717607973421926,
+        "fulfilment": 0.5918287327478042,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 2365726.4694045265,
+        "spoiledKg": 11895.883999999998,
+        "spoilageRate": 0.09880302325581394,
+        "fulfilment": 0.5948759802383942,
+        "minDestinationFill": 0,
+        "markdownKg": 5435.526563074708,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2918779.49207924,
+        "spoiledKg": 6593.710000000001,
+        "spoilageRate": 0.05476503322259137,
+        "fulfilment": 0.5906401819322458,
+        "minDestinationFill": 0,
+        "markdownKg": 23039.771770797364,
+        "trucks": 21,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 167.183,
+      "consistencyGap": 0.27635839534923434,
+      "stress": {
+        "futures": 100,
+        "fefo": 1348688.0652530903,
+        "clearance": 1500337.4809051484,
+        "optimizer": 1719337.0617372128,
+        "optimizerP05": 1110462.8033146558,
+        "clearanceP05": 988583.6717896379
+      }
+    },
+    {
+      "id": "demand-shock",
+      "name": "Demand shock",
+      "tests": "Unexpected change in destination demand",
+      "inventoryKg": 120400,
+      "demandKg": 128352,
+      "fefo": {
+        "net": 1600794,
+        "spoiledKg": 21720,
+        "spoilageRate": 0.18039867109634553,
+        "fulfilment": 0.5033034156070805,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 2010978.6115971224,
+        "spoiledKg": 13804.696999999998,
+        "spoilageRate": 0.11465695182724252,
+        "fulfilment": 0.5063309103091498,
+        "minDestinationFill": 0,
+        "markdownKg": 7526.713467908317,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2881525.793591739,
+        "spoiledKg": 8997.483999999999,
+        "spoilageRate": 0.07472993355481726,
+        "fulfilment": 0.5784949903390676,
+        "minDestinationFill": 0,
+        "markdownKg": 23285.847373944365,
+        "trucks": 22,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 156.16789999999992,
+      "consistencyGap": 0.28493232233449817,
+      "stress": {
+        "futures": 100,
+        "fefo": 970403.2224555629,
+        "clearance": 1167017.5114974538,
+        "optimizer": 1652818.5858391044,
+        "optimizerP05": 1070272.45685331,
+        "clearanceP05": 680047.6763718531
+      }
+    },
+    {
+      "id": "diesel-spike",
+      "name": "Diesel spike",
+      "tests": "Costs that change the preferred decision",
+      "inventoryKg": 120400,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 1873350,
+        "spoiledKg": 19360,
+        "spoilageRate": 0.16079734219269104,
+        "fulfilment": 0.5720671267252195,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 23,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 2191592.735056321,
+        "spoiledKg": 13499.709,
+        "spoilageRate": 0.1121238289036545,
+        "fulfilment": 0.5774912327478042,
+        "minDestinationFill": 0,
+        "markdownKg": 5168.605512485541,
+        "trucks": 23,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2896440.82985888,
+        "spoiledKg": 6540.192,
+        "spoilageRate": 0.05432053156146179,
+        "fulfilment": 0.5936865668130489,
+        "minDestinationFill": 0,
+        "markdownKg": 24367.08384997789,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 66.09760000000006,
+      "consistencyGap": 0.30627227667719126,
+      "stress": {
+        "futures": 100,
+        "fefo": 1184749.1610979722,
+        "clearance": 1347907.6713956553,
+        "optimizer": 1650584.907763115,
+        "optimizerP05": 1072549.6801747957,
+        "clearanceP05": 817101.0030989642
+      }
+    },
+    {
+      "id": "thin-markdowns",
+      "name": "Thin markdown demand",
+      "tests": "Discount assumptions that change the preferred decision",
+      "inventoryKg": 120400,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 2046294,
+        "spoiledKg": 17720,
+        "spoilageRate": 0.14717607973421926,
+        "fulfilment": 0.5965338770388958,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 2132853.5854337346,
+        "spoiledKg": 16023.971,
+        "spoilageRate": 0.13308946013289036,
+        "fulfilment": 0.5972956869510666,
+        "minDestinationFill": 0,
+        "markdownKg": 1598.8792191825225,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2534219.785392856,
+        "spoiledKg": 13980.497,
+        "spoilageRate": 0.11611708471760797,
+        "fulfilment": 0.6450000313676287,
+        "minDestinationFill": 0,
+        "markdownKg": 6378.191631971809,
+        "trucks": 21,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 65.43189999999959,
+      "consistencyGap": 0.4024987993761897,
+      "stress": {
+        "futures": 100,
+        "fefo": 1024331.196608943,
+        "clearance": 1058579.489932012,
+        "optimizer": 1225513.6901952578,
+        "optimizerP05": 579468.2814162329,
+        "clearanceP05": 403471.84286658326
+      }
+    },
+    {
+      "id": "no-headroom",
+      "name": "Little headroom",
+      "tests": "Constraints that leave (almost) nothing to improve",
+      "inventoryKg": 32000,
+      "demandKg": 184320,
+      "fefo": {
+        "net": 538360,
+        "spoiledKg": 0,
+        "spoilageRate": 0,
+        "fulfilment": 0.1736111111111111,
+        "minDestinationFill": 0.1736111111111111,
+        "markdownKg": 0,
+        "trucks": 6,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 538360,
+        "spoiledKg": 0,
+        "spoilageRate": 0,
+        "fulfilment": 0.1736111111111111,
+        "minDestinationFill": 0.1736111111111111,
+        "markdownKg": 0,
+        "trucks": 6,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 552400,
+        "spoiledKg": 0,
+        "spoilageRate": 0,
+        "fulfilment": 0.1736111111111111,
+        "minDestinationFill": 0.1736111111111111,
+        "markdownKg": 0,
+        "trucks": 4,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 22.78989999999976,
+      "consistencyGap": 0,
+      "stress": {
+        "futures": 100,
+        "fefo": 520984.9783656494,
+        "clearance": 520984.9783656494,
+        "optimizer": 550658.7346343774,
+        "optimizerP05": 519568.6954369026,
+        "clearanceP05": 471015.83134870254
+      }
+    },
+    {
+      "id": "stranded",
+      "name": "Stranded stock",
+      "tests": "No feasible allocation exists for all requested demand",
+      "inventoryKg": 120400,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 26302,
+        "spoiledKg": 44800,
+        "spoilageRate": 0.37209302325581395,
+        "fulfilment": 0.24215809284818068,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 446538.9073389338,
+        "spoiledKg": 39441.604,
+        "spoilageRate": 0.327588073089701,
+        "fulfilment": 0.24215809284818068,
+        "minDestinationFill": 0,
+        "markdownKg": 5358.3936984424845,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 727178.3550060269,
+        "spoiledKg": 35032.266,
+        "spoilageRate": 0.29096566445182726,
+        "fulfilment": 0.2286768742158093,
+        "minDestinationFill": 0,
+        "markdownKg": 16931.86741589975,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 33.69750000000022,
+      "consistencyGap": 0.14036436821334064,
+      "stress": {
+        "futures": 100,
+        "fefo": -248076.80417197384,
+        "clearance": -37684.55552350175,
+        "optimizer": 132666.22922298516,
+        "optimizerP05": -183934.9138644752,
+        "clearanceP05": -316889.7870353983
+      }
+    }
+  ],
+  "random": [
+    {
+      "id": "random-1",
+      "name": "Random seed 1",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 60725,
+      "demandKg": 95320,
+      "fefo": {
+        "net": 585011,
+        "spoiledKg": 17755,
+        "spoilageRate": 0.292383696994648,
+        "fulfilment": 0.3084347461183382,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 18,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 647446.7984113465,
+        "spoiledKg": 16653.77,
+        "spoilageRate": 0.27424899135446684,
+        "fulfilment": 0.3084347461183382,
+        "minDestinationFill": 0,
+        "markdownKg": 1101.2281775593688,
+        "trucks": 18,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 888003.4304054992,
+        "spoiledKg": 14324.29,
+        "spoilageRate": 0.23588785508439689,
+        "fulfilment": 0.3132488564834242,
+        "minDestinationFill": 0,
+        "markdownKg": 7102.572112562099,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 64.61629999999968,
+      "consistencyGap": 0.07989743666257709,
+      "stress": {
+        "futures": 100,
+        "fefo": 375966.91585449345,
+        "clearance": 411925.1977180637,
+        "optimizer": 482635.84424088715,
+        "optimizerP05": 185606.80387982726,
+        "clearanceP05": 202797.6741861332
+      }
+    },
+    {
+      "id": "random-2",
+      "name": "Random seed 2",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 75175,
+      "demandKg": 96310,
+      "fefo": {
+        "net": 649936,
+        "spoiledKg": 22945,
+        "spoilageRate": 0.30522115064848687,
+        "fulfilment": 0.33620600145363927,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 23,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 710737.8984211381,
+        "spoiledKg": 21617.224,
+        "spoilageRate": 0.28755868307283006,
+        "fulfilment": 0.3372146817568269,
+        "minDestinationFill": 0,
+        "markdownKg": 1230.628354068736,
+        "trucks": 23,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 940026.5502352503,
+        "spoiledKg": 19059.667999999998,
+        "spoilageRate": 0.2535373195876288,
+        "fulfilment": 0.37484876959817254,
+        "minDestinationFill": 0,
+        "markdownKg": 9737.561721233984,
+        "trucks": 25,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 57.40350000000035,
+      "consistencyGap": 0.14763285813387483,
+      "stress": {
+        "futures": 100,
+        "fefo": 463008.36096130364,
+        "clearance": 501662.172301386,
+        "optimizer": 575673.8567731321,
+        "optimizerP05": 231602.80457450432,
+        "clearanceP05": 278456.41677117697
+      }
+    },
+    {
+      "id": "random-3",
+      "name": "Random seed 3",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 105650,
+      "demandKg": 108340,
+      "fefo": {
+        "net": 336825,
+        "spoiledKg": 37590,
+        "spoilageRate": 0.3557974443918599,
+        "fulfilment": 0.29555104301273766,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 630929.1744987676,
+        "spoiledKg": 33265.9,
+        "spoilageRate": 0.31486890676762896,
+        "fulfilment": 0.29555104301273766,
+        "minDestinationFill": 0,
+        "markdownKg": 4324.097066287255,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1104020.0735670908,
+        "spoiledKg": 29521.398,
+        "spoilageRate": 0.2794263890203502,
+        "fulfilment": 0.39793678235185526,
+        "minDestinationFill": 0,
+        "markdownKg": 16017.476468651952,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 150.33100000000013,
+      "consistencyGap": 0.28398524899967015,
+      "stress": {
+        "futures": 100,
+        "fefo": 172909.18502152298,
+        "clearance": 306548.8885717252,
+        "optimizer": 644045.9791727465,
+        "optimizerP05": 257699.43083532547,
+        "clearanceP05": 7058.161161386757
+      }
+    },
+    {
+      "id": "random-4",
+      "name": "Random seed 4",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 97975,
+      "demandKg": 135310,
+      "fefo": {
+        "net": 344898.5,
+        "spoiledKg": 39200,
+        "spoilageRate": 0.40010206685378924,
+        "fulfilment": 0.31494346315867267,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 647735.0152996592,
+        "spoiledKg": 34192.487,
+        "spoilageRate": 0.34899195713192144,
+        "fulfilment": 0.3152390806296652,
+        "minDestinationFill": 0,
+        "markdownKg": 4967.510292445057,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1364283.1099793995,
+        "spoiledKg": 31032.503000000004,
+        "spoilageRate": 0.31673899464149025,
+        "fulfilment": 0.3237822851230508,
+        "minDestinationFill": 0,
+        "markdownKg": 14881.746613781032,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 60.932700000000295,
+      "consistencyGap": 0.14142799703404307,
+      "stress": {
+        "futures": 100,
+        "fefo": 20438.818539819487,
+        "clearance": 148679.36632105638,
+        "optimizer": 531100.6184762084,
+        "optimizerP05": 145981.99856211524,
+        "clearanceP05": -163234.04367695493
+      }
+    },
+    {
+      "id": "random-5",
+      "name": "Random seed 5",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 68400,
+      "demandKg": 156820,
+      "fefo": {
+        "net": 576943,
+        "spoiledKg": 19740,
+        "spoilageRate": 0.2885964912280702,
+        "fulfilment": 0.21495982655273563,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 13,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 735491.7310481585,
+        "spoiledKg": 17036.231,
+        "spoilageRate": 0.24906770467836256,
+        "fulfilment": 0.21495982655273563,
+        "minDestinationFill": 0,
+        "markdownKg": 2703.76875437004,
+        "trucks": 13,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1248733.7550872425,
+        "spoiledKg": 13823.17,
+        "spoilageRate": 0.20209312865497076,
+        "fulfilment": 0.21354574033924245,
+        "minDestinationFill": 0,
+        "markdownKg": 10646.361577575726,
+        "trucks": 15,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 31.60360000000037,
+      "consistencyGap": 0.09236193750984967,
+      "stress": {
+        "futures": 100,
+        "fefo": 397643.918120789,
+        "clearance": 479496.8917199704,
+        "optimizer": 682988.8424480367,
+        "optimizerP05": 288804.59984248236,
+        "clearanceP05": 246617.2263519693
+      }
+    },
+    {
+      "id": "random-6",
+      "name": "Random seed 6",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 108875,
+      "demandKg": 132150,
+      "fefo": {
+        "net": 1451725,
+        "spoiledKg": 18055,
+        "spoilageRate": 0.16583237657864525,
+        "fulfilment": 0.5082103670071888,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1737686.779567747,
+        "spoiledKg": 14460.773,
+        "spoilageRate": 0.13281995866819746,
+        "fulfilment": 0.5082103670071888,
+        "minDestinationFill": 0,
+        "markdownKg": 3594.224134845414,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2397348.670004383,
+        "spoiledKg": 10087.014,
+        "spoilageRate": 0.09264766016073478,
+        "fulfilment": 0.5418909345440787,
+        "minDestinationFill": 0,
+        "markdownKg": 18600.469531384435,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 65.09600000000046,
+      "consistencyGap": 0.18239820143207908,
+      "stress": {
+        "futures": 100,
+        "fefo": 1103273.8778640663,
+        "clearance": 1250706.064893317,
+        "optimizer": 1475244.4772886462,
+        "optimizerP05": 964175.9644393787,
+        "clearanceP05": 895434.2327496565
+      }
+    },
+    {
+      "id": "random-7",
+      "name": "Random seed 7",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 98725,
+      "demandKg": 155080,
+      "fefo": {
+        "net": 781894.5,
+        "spoiledKg": 29500,
+        "spoilageRate": 0.29880982527222083,
+        "fulfilment": 0.3259285530049007,
+        "minDestinationFill": 0.1308411214953271,
+        "markdownKg": 0,
+        "trucks": 27,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1133632.890416504,
+        "spoiledKg": 24158.392,
+        "spoilageRate": 0.24470389465687514,
+        "fulfilment": 0.3259285530049007,
+        "minDestinationFill": 0.1308411214953271,
+        "markdownKg": 5341.606282382789,
+        "trucks": 27,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1814733.8312388984,
+        "spoiledKg": 18310.782,
+        "spoilageRate": 0.1854725955938212,
+        "fulfilment": 0.31507603172556103,
+        "minDestinationFill": 0.0227803738317757,
+        "markdownKg": 19212.102282080934,
+        "trucks": 28,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 38.536299999999756,
+      "consistencyGap": 0.5466446192003787,
+      "stress": {
+        "futures": 100,
+        "fefo": 289532.70402819844,
+        "clearance": 492758.51436254696,
+        "optimizer": 648597.4873499428,
+        "optimizerP05": 34135.15025874507,
+        "clearanceP05": 53319.61586655816
+      }
+    },
+    {
+      "id": "random-8",
+      "name": "Random seed 8",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 70875,
+      "demandKg": 138380,
+      "fefo": {
+        "net": 1056122,
+        "spoiledKg": 15185,
+        "spoilageRate": 0.21425044091710757,
+        "fulfilment": 0.3463650816591993,
+        "minDestinationFill": 0.12026239067055394,
+        "markdownKg": 0,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1319068.619883651,
+        "spoiledKg": 11748.741000000002,
+        "spoilageRate": 0.16576706878306882,
+        "fulfilment": 0.3463650816591993,
+        "minDestinationFill": 0.12026239067055394,
+        "markdownKg": 3436.257039621017,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1879688.951255762,
+        "spoiledKg": 5178.065,
+        "spoilageRate": 0.07305911816578482,
+        "fulfilment": 0.3389640554993496,
+        "minDestinationFill": 0,
+        "markdownKg": 12191.084274634499,
+        "trucks": 18,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 31.239399999999478,
+      "consistencyGap": 0.1280750553123653,
+      "stress": {
+        "futures": 100,
+        "fefo": 882084.2805556485,
+        "clearance": 1030506.5882061301,
+        "optimizer": 1260685.6627013355,
+        "optimizerP05": 798910.2105585343,
+        "clearanceP05": 689304.626990267
+      }
+    },
+    {
+      "id": "random-9",
+      "name": "Random seed 9",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 71675,
+      "demandKg": 109000,
+      "fefo": {
+        "net": 1133127,
+        "spoiledKg": 15285,
+        "spoilageRate": 0.2132542727589815,
+        "fulfilment": 0.35577981651376145,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1241236.0437850805,
+        "spoiledKg": 13361.425000000001,
+        "spoilageRate": 0.18641681199860483,
+        "fulfilment": 0.35751278899082567,
+        "minDestinationFill": 0,
+        "markdownKg": 1734.67924233507,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2065062.1702603367,
+        "spoiledKg": 12307.307000000003,
+        "spoilageRate": 0.1717098988489711,
+        "fulfilment": 0.40615785321100917,
+        "minDestinationFill": 0,
+        "markdownKg": 15096.475411338,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 83.41010000000006,
+      "consistencyGap": 0.46981193497776985,
+      "stress": {
+        "futures": 100,
+        "fefo": 966458.8626534754,
+        "clearance": 1017093.912259793,
+        "optimizer": 1426301.5983301944,
+        "optimizerP05": 1005304.2679690442,
+        "clearanceP05": 798583.3281194204
+      }
+    },
+    {
+      "id": "random-10",
+      "name": "Random seed 10",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 97350,
+      "demandKg": 91580,
+      "fefo": {
+        "net": 1262523,
+        "spoiledKg": 23165,
+        "spoilageRate": 0.2379558294812532,
+        "fulfilment": 0.5945621314697532,
+        "minDestinationFill": 0.20994475138121546,
+        "markdownKg": 0,
+        "trucks": 28,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1499481.4556226768,
+        "spoiledKg": 19803.426,
+        "spoilageRate": 0.20342502311248073,
+        "fulfilment": 0.5957672526752567,
+        "minDestinationFill": 0.20994475138121546,
+        "markdownKg": 3251.206260597634,
+        "trucks": 28,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2017232.4232216543,
+        "spoiledKg": 14668.414000000002,
+        "spoilageRate": 0.15067708269132,
+        "fulfilment": 0.5671019654946494,
+        "minDestinationFill": 0.21513138121546962,
+        "markdownKg": 18054.856445567275,
+        "trucks": 27,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 47.25280000000021,
+      "consistencyGap": 0.7112103719264269,
+      "stress": {
+        "futures": 100,
+        "fefo": 915685.9829411474,
+        "clearance": 1018456.6382690812,
+        "optimizer": 1224488.1319000246,
+        "optimizerP05": 789363.7377094816,
+        "clearanceP05": 718835.2261810225
+      }
+    },
+    {
+      "id": "random-11",
+      "name": "Random seed 11",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 44700,
+      "demandKg": 109040,
+      "fefo": {
+        "net": 35538,
+        "spoiledKg": 17995,
+        "spoilageRate": 0.40257270693512304,
+        "fulfilment": 0.12394534115920763,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 211122.3069591534,
+        "spoiledKg": 15563.294000000002,
+        "spoilageRate": 0.3481721252796421,
+        "fulfilment": 0.12394534115920763,
+        "minDestinationFill": 0,
+        "markdownKg": 2431.704070144668,
+        "trucks": 12,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 572305.536039216,
+        "spoiledKg": 13522.688,
+        "spoilageRate": 0.30252098434004476,
+        "fulfilment": 0.120244891782832,
+        "minDestinationFill": 0,
+        "markdownKg": 7992.02151457532,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 50.48919999999998,
+      "consistencyGap": 0.30532104545272887,
+      "stress": {
+        "futures": 100,
+        "fefo": -125014.1718076158,
+        "clearance": -72108.53389077178,
+        "optimizer": 57907.35985660028,
+        "optimizerP05": -318535.3072457088,
+        "clearanceP05": -315703.16334099567
+      }
+    },
+    {
+      "id": "random-12",
+      "name": "Random seed 12",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 78925,
+      "demandKg": 100280,
+      "fefo": {
+        "net": 373555,
+        "spoiledKg": 21965,
+        "spoilageRate": 0.2783021856192588,
+        "fulfilment": 0.3082369365775828,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 586470.5328020046,
+        "spoiledKg": 18341.317,
+        "spoilageRate": 0.2323891922711435,
+        "fulfilment": 0.3091854307937774,
+        "minDestinationFill": 0,
+        "markdownKg": 3528.5662630827906,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 807750.3932681005,
+        "spoiledKg": 15733.805,
+        "spoilageRate": 0.19935134621476086,
+        "fulfilment": 0.320381112883925,
+        "minDestinationFill": 0,
+        "markdownKg": 8490.329802966298,
+        "trucks": 23,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 41.539200000000164,
+      "consistencyGap": 0.3861751339863986,
+      "stress": {
+        "futures": 100,
+        "fefo": 173869.91881676004,
+        "clearance": 296363.92298361054,
+        "optimizer": 345622.08546610066,
+        "optimizerP05": 69797.17928237643,
+        "clearanceP05": 95190.46042087045
+      }
+    },
+    {
+      "id": "random-13",
+      "name": "Random seed 13",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 77125,
+      "demandKg": 94960,
+      "fefo": {
+        "net": 906182.5,
+        "spoiledKg": 13975,
+        "spoilageRate": 0.1811993517017828,
+        "fulfilment": 0.35593934288121315,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1013526.0945598639,
+        "spoiledKg": 11518.155999999999,
+        "spoilageRate": 0.14934399999999998,
+        "fulfilment": 0.3569214406065711,
+        "minDestinationFill": 0,
+        "markdownKg": 2363.5824362372678,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1534212.4497533287,
+        "spoiledKg": 9095.786000000002,
+        "spoilageRate": 0.1179356369529984,
+        "fulfilment": 0.4627205770850884,
+        "minDestinationFill": 0,
+        "markdownKg": 9949.31800668462,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 91.32280000000083,
+      "consistencyGap": 0.17456226772628725,
+      "stress": {
+        "futures": 100,
+        "fefo": 604168.0933228438,
+        "clearance": 653257.1032938684,
+        "optimizer": 904813.3003597066,
+        "optimizerP05": 552018.5108571161,
+        "clearanceP05": 447083.24267535895
+      }
+    },
+    {
+      "id": "random-14",
+      "name": "Random seed 14",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 102375,
+      "demandKg": 161680,
+      "fefo": {
+        "net": 1441114.5,
+        "spoiledKg": 32990,
+        "spoilageRate": 0.32224664224664223,
+        "fulfilment": 0.3725569025235032,
+        "minDestinationFill": 0.042529378847229994,
+        "markdownKg": 0,
+        "trucks": 23,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1759727.5512650385,
+        "spoiledKg": 28614.306,
+        "spoilageRate": 0.2795048205128205,
+        "fulfilment": 0.3735583250865908,
+        "minDestinationFill": 0.042529378847229994,
+        "markdownKg": 4213.78150642354,
+        "trucks": 23,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2692820.3412324637,
+        "spoiledKg": 22309.177,
+        "spoilageRate": 0.21791625885225885,
+        "fulfilment": 0.37304606630381004,
+        "minDestinationFill": 0,
+        "markdownKg": 15421.72819959027,
+        "trucks": 22,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 40.193999999999505,
+      "consistencyGap": 0.3075857642106712,
+      "stress": {
+        "futures": 100,
+        "fefo": 971707.901360194,
+        "clearance": 1142939.5139755874,
+        "optimizer": 1573632.9145884314,
+        "optimizerP05": 780233.624851644,
+        "clearanceP05": 639220.4487168542
+      }
+    },
+    {
+      "id": "random-15",
+      "name": "Random seed 15",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 56675,
+      "demandKg": 110190,
+      "fefo": {
+        "net": -101749.5,
+        "spoiledKg": 24150,
+        "spoilageRate": 0.42611380679311867,
+        "fulfilment": 0.2305563118250295,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 56133.38168951345,
+        "spoiledKg": 21833.427,
+        "spoilageRate": 0.38523911777679753,
+        "fulfilment": 0.2305563118250295,
+        "minDestinationFill": 0,
+        "markdownKg": 2316.5712611723093,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 279476.27450925694,
+        "spoiledKg": 19001.148,
+        "spoilageRate": 0.3352650727834142,
+        "fulfilment": 0.2397543788002541,
+        "minDestinationFill": 0,
+        "markdownKg": 7047.638515167454,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 64.94499999999971,
+      "consistencyGap": 0.27399397554108873,
+      "stress": {
+        "futures": 100,
+        "fefo": -253158.62178591976,
+        "clearance": -172685.3477313541,
+        "optimizer": -64602.22051241818,
+        "optimizerP05": -398326.40968129004,
+        "clearanceP05": -315316.76191294694
+      }
+    },
+    {
+      "id": "random-16",
+      "name": "Random seed 16",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 108675,
+      "demandKg": 147050,
+      "fefo": {
+        "net": 1035530,
+        "spoiledKg": 32095,
+        "spoilageRate": 0.29533011272141707,
+        "fulfilment": 0.3694661679700782,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1206863.7670700531,
+        "spoiledKg": 28631.868000000002,
+        "spoilageRate": 0.2634632436162871,
+        "fulfilment": 0.3694661679700782,
+        "minDestinationFill": 0,
+        "markdownKg": 3463.129015139199,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1736497.5623302138,
+        "spoiledKg": 25300.689,
+        "spoilageRate": 0.23281057280883366,
+        "fulfilment": 0.3979292145528731,
+        "minDestinationFill": 0,
+        "markdownKg": 17169.55429004474,
+        "trucks": 18,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 81.64370000000054,
+      "consistencyGap": 0.08930317545309663,
+      "stress": {
+        "futures": 100,
+        "fefo": 639888.08584238,
+        "clearance": 706721.2708087271,
+        "optimizer": 998553.9643590762,
+        "optimizerP05": 460048.5334144775,
+        "clearanceP05": 341713.60796321
+      }
+    },
+    {
+      "id": "random-17",
+      "name": "Random seed 17",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 71000,
+      "demandKg": 104150,
+      "fefo": {
+        "net": 888593,
+        "spoiledKg": 17720,
+        "spoilageRate": 0.24957746478873238,
+        "fulfilment": 0.37225156024963996,
+        "minDestinationFill": 0.20135527589545016,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1002094.7732227948,
+        "spoiledKg": 15823.729,
+        "spoilageRate": 0.22286942253521125,
+        "fulfilment": 0.37225156024963996,
+        "minDestinationFill": 0.20135527589545016,
+        "markdownKg": 1896.2688693961554,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1329814.344131402,
+        "spoiledKg": 14226.915,
+        "spoilageRate": 0.20037908450704225,
+        "fulfilment": 0.43258168987037926,
+        "minDestinationFill": 0,
+        "markdownKg": 9523.159655725553,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 56.300499999999374,
+      "consistencyGap": 0.08250062284059823,
+      "stress": {
+        "futures": 100,
+        "fefo": 622828.1768582365,
+        "clearance": 685653.9076440899,
+        "optimizer": 863104.6782159392,
+        "optimizerP05": 499167.87524235935,
+        "clearanceP05": 394092.4473631943
+      }
+    },
+    {
+      "id": "random-18",
+      "name": "Random seed 18",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 51800,
+      "demandKg": 98200,
+      "fefo": {
+        "net": 568016,
+        "spoiledKg": 11320,
+        "spoilageRate": 0.21853281853281853,
+        "fulfilment": 0.2744399185336049,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 589836.0812365676,
+        "spoiledKg": 10915.79,
+        "spoilageRate": 0.2107295366795367,
+        "fulfilment": 0.2744399185336049,
+        "minDestinationFill": 0,
+        "markdownKg": 404.2095054693732,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 896132.4528988433,
+        "spoiledKg": 7819.629000000001,
+        "spoilageRate": 0.1509580888030888,
+        "fulfilment": 0.28045417515274945,
+        "minDestinationFill": 0,
+        "markdownKg": 8728.413449623464,
+        "trucks": 17,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 53.26680000000124,
+      "consistencyGap": 0.2589424073230475,
+      "stress": {
+        "futures": 100,
+        "fefo": 389098.2089558839,
+        "clearance": 399857.6889372369,
+        "optimizer": 618626.1085122346,
+        "optimizerP05": 355167.5588303249,
+        "clearanceP05": 220014.84136640042
+      }
+    },
+    {
+      "id": "random-19",
+      "name": "Random seed 19",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 92525,
+      "demandKg": 145650,
+      "fefo": {
+        "net": 1149514.5,
+        "spoiledKg": 19820,
+        "spoilageRate": 0.21421237503377466,
+        "fulfilment": 0.3179196704428424,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1279227.3234551875,
+        "spoiledKg": 16679.247,
+        "spoilageRate": 0.18026746284787895,
+        "fulfilment": 0.3193537178166838,
+        "minDestinationFill": 0,
+        "markdownKg": 2931.88311594647,
+        "trucks": 16,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1972674.9882910086,
+        "spoiledKg": 12921.580000000002,
+        "spoilageRate": 0.139655012158876,
+        "fulfilment": 0.3432263714383797,
+        "minDestinationFill": 0,
+        "markdownKg": 18593.973904565137,
+        "trucks": 14,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 51.676799999999275,
+      "consistencyGap": 0.17032502125948668,
+      "stress": {
+        "futures": 100,
+        "fefo": 945567.5653383355,
+        "clearance": 1020880.7379990852,
+        "optimizer": 1417369.3983428993,
+        "optimizerP05": 946210.4099031357,
+        "clearanceP05": 741426.5681256657
+      }
+    },
+    {
+      "id": "random-20",
+      "name": "Random seed 20",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 98875,
+      "demandKg": 117220,
+      "fefo": {
+        "net": 627176.5,
+        "spoiledKg": 20390,
+        "spoilageRate": 0.20621997471554993,
+        "fulfilment": 0.3725900017061935,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 861947.027002062,
+        "spoiledKg": 16352.916,
+        "spoilageRate": 0.16538979519595448,
+        "fulfilment": 0.3725900017061935,
+        "minDestinationFill": 0,
+        "markdownKg": 4037.082869008143,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1410115.7747889713,
+        "spoiledKg": 14431.570999999998,
+        "spoilageRate": 0.14595773451327432,
+        "fulfilment": 0.4372981402491043,
+        "minDestinationFill": 0,
+        "markdownKg": 14696.039707613549,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 46.088299999999435,
+      "consistencyGap": 0.35478770616464317,
+      "stress": {
+        "futures": 100,
+        "fefo": 317234.40463500714,
+        "clearance": 409775.0008552669,
+        "optimizer": 528819.263408426,
+        "optimizerP05": 108835.549015878,
+        "clearanceP05": 109908.94147169637
+      }
+    },
+    {
+      "id": "random-21",
+      "name": "Random seed 21",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 57600,
+      "demandKg": 127520,
+      "fefo": {
+        "net": 990392,
+        "spoiledKg": 12860,
+        "spoilageRate": 0.2232638888888889,
+        "fulfilment": 0.3161072772898369,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 21,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1177971.164466568,
+        "spoiledKg": 9441.132,
+        "spoilageRate": 0.16390854166666666,
+        "fulfilment": 0.3161072772898369,
+        "minDestinationFill": 0,
+        "markdownKg": 3418.865686144415,
+        "trucks": 21,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1421078.9413677482,
+        "spoiledKg": 9460.925,
+        "spoilageRate": 0.16425217013888888,
+        "fulfilment": 0.3176594494981179,
+        "minDestinationFill": 0,
+        "markdownKg": 6631.138900771292,
+        "trucks": 17,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 57.570099999999,
+      "consistencyGap": 0.08266256260685623,
+      "stress": {
+        "futures": 100,
+        "fefo": 749048.3617024655,
+        "clearance": 853436.9174048847,
+        "optimizer": 919786.3778436669,
+        "optimizerP05": 556592.8679499441,
+        "clearanceP05": 631279.405448776
+      }
+    },
+    {
+      "id": "random-22",
+      "name": "Random seed 22",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 72400,
+      "demandKg": 93150,
+      "fefo": {
+        "net": 580252,
+        "spoiledKg": 19510,
+        "spoilageRate": 0.26947513812154694,
+        "fulfilment": 0.28556092324208265,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 755064.6382295312,
+        "spoiledKg": 17098.04,
+        "spoilageRate": 0.236160773480663,
+        "fulfilment": 0.28556092324208265,
+        "minDestinationFill": 0,
+        "markdownKg": 2411.9578955669276,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1332906.8639796101,
+        "spoiledKg": 9505.66,
+        "spoilageRate": 0.13129364640883978,
+        "fulfilment": 0.30636387546967253,
+        "minDestinationFill": 0,
+        "markdownKg": 12153.712812477987,
+        "trucks": 19,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 37.379799999998795,
+      "consistencyGap": 0.28920111525803804,
+      "stress": {
+        "futures": 100,
+        "fefo": 281602.3245195426,
+        "clearance": 393155.71598761785,
+        "optimizer": 718875.6862353769,
+        "optimizerP05": 340183.03493129066,
+        "clearanceP05": 159037.4569684976
+      }
+    },
+    {
+      "id": "random-23",
+      "name": "Random seed 23",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 71425,
+      "demandKg": 106290,
+      "fefo": {
+        "net": 458904,
+        "spoiledKg": 28275,
+        "spoilageRate": 0.3958697934896745,
+        "fulfilment": 0.2945714554520651,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 585633.4754922308,
+        "spoiledKg": 25492.403,
+        "spoilageRate": 0.3569114875743787,
+        "fulfilment": 0.2945714554520651,
+        "minDestinationFill": 0,
+        "markdownKg": 2782.5947032215327,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 785755.079231028,
+        "spoiledKg": 25579.434999999998,
+        "spoilageRate": 0.35812999649982497,
+        "fulfilment": 0.329508599115627,
+        "minDestinationFill": 0,
+        "markdownKg": 6442.839787202684,
+        "trucks": 18,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 105.08109999999942,
+      "consistencyGap": 0.17873155942652375,
+      "stress": {
+        "futures": 100,
+        "fefo": 320328.58261985565,
+        "clearance": 386106.2852707763,
+        "optimizer": 498585.63767856604,
+        "optimizerP05": 200945.40926036716,
+        "clearanceP05": 188663.09825407423
+      }
+    },
+    {
+      "id": "random-24",
+      "name": "Random seed 24",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 94800,
+      "demandKg": 122420,
+      "fefo": {
+        "net": 1597265,
+        "spoiledKg": 15220,
+        "spoilageRate": 0.16054852320675106,
+        "fulfilment": 0.472880248325437,
+        "minDestinationFill": 0.06358381502890173,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1597265,
+        "spoiledKg": 15220,
+        "spoilageRate": 0.16054852320675106,
+        "fulfilment": 0.472880248325437,
+        "minDestinationFill": 0.06358381502890173,
+        "markdownKg": 0,
+        "trucks": 24,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2029378.6567645753,
+        "spoiledKg": 9768.118999999999,
+        "spoilageRate": 0.1030392299578059,
+        "fulfilment": 0.4429247263519033,
+        "minDestinationFill": 0,
+        "markdownKg": 14018.076471047316,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 153.39390000000094,
+      "consistencyGap": 0.3386497679166496,
+      "stress": {
+        "futures": 100,
+        "fefo": 1300842.986138995,
+        "clearance": 1300842.986138995,
+        "optimizer": 1494515.0503851927,
+        "optimizerP05": 1063882.1589403802,
+        "clearanceP05": 1064664.9116511329
+      }
+    },
+    {
+      "id": "random-25",
+      "name": "Random seed 25",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 64350,
+      "demandKg": 89350,
+      "fefo": {
+        "net": 154250,
+        "spoiledKg": 21990,
+        "spoilageRate": 0.3417249417249417,
+        "fulfilment": 0.3583659764969222,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 21,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 245704.19687241165,
+        "spoiledKg": 20147.225,
+        "spoilageRate": 0.31308818958818957,
+        "fulfilment": 0.3609241298265249,
+        "minDestinationFill": 0,
+        "markdownKg": 1614.2026877980468,
+        "trucks": 21,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 797465.3551437142,
+        "spoiledKg": 11094.33,
+        "spoilageRate": 0.17240606060606062,
+        "fulfilment": 0.3725433799664242,
+        "minDestinationFill": 0,
+        "markdownKg": 11817.986923766557,
+        "trucks": 21,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 53.98080000000118,
+      "consistencyGap": 0.2939918199554086,
+      "stress": {
+        "futures": 100,
+        "fefo": 168347.9557869533,
+        "clearance": 221157.95734358038,
+        "optimizer": 597344.161138244,
+        "optimizerP05": 309175.0474715921,
+        "clearanceP05": -35318.51093166438
+      }
+    },
+    {
+      "id": "random-26",
+      "name": "Random seed 26",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 63150,
+      "demandKg": 109700,
+      "fefo": {
+        "net": 1003994,
+        "spoiledKg": 12635,
+        "spoilageRate": 0.20007917656373714,
+        "fulfilment": 0.3263445761166819,
+        "minDestinationFill": 0.12716763005780346,
+        "markdownKg": 0,
+        "trucks": 26,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1102956.226678927,
+        "spoiledKg": 10094.795,
+        "spoilageRate": 0.15985423594615994,
+        "fulfilment": 0.3273600182315406,
+        "minDestinationFill": 0.12716763005780346,
+        "markdownKg": 2428.8090116148546,
+        "trucks": 26,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1623624.5086787934,
+        "spoiledKg": 6283.124,
+        "spoilageRate": 0.09949523357086303,
+        "fulfilment": 0.33861042844120326,
+        "minDestinationFill": 0,
+        "markdownKg": 11169.00611140835,
+        "trucks": 26,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 31.703999999999724,
+      "consistencyGap": 0.4515926248859614,
+      "stress": {
+        "futures": 100,
+        "fefo": 674557.1768716477,
+        "clearance": 727083.9587282896,
+        "optimizer": 891383.3888592588,
+        "optimizerP05": 444227.7246384334,
+        "clearanceP05": 509571.7960137075
+      }
+    },
+    {
+      "id": "random-27",
+      "name": "Random seed 27",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 81050,
+      "demandKg": 91030,
+      "fefo": {
+        "net": 260957,
+        "spoiledKg": 33990,
+        "spoilageRate": 0.4193707587908698,
+        "fulfilment": 0.31308359881357795,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 386491.2503711303,
+        "spoiledKg": 31512.668999999998,
+        "spoilageRate": 0.3888052930289944,
+        "fulfilment": 0.3150667801823575,
+        "minDestinationFill": 0,
+        "markdownKg": 2296.7994741593375,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1003475.8137515639,
+        "spoiledKg": 26315.182,
+        "spoilageRate": 0.324678371375694,
+        "fulfilment": 0.34362298143469183,
+        "minDestinationFill": 0,
+        "markdownKg": 13973.269809406504,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 50.3145999999997,
+      "consistencyGap": 0.5677975326543674,
+      "stress": {
+        "futures": 100,
+        "fefo": 119320.805054443,
+        "clearance": 194017.00194731398,
+        "optimizer": 546253.3769904197,
+        "optimizerP05": 136570.1859344826,
+        "clearanceP05": -68263.4025627895
+      }
+    },
+    {
+      "id": "random-28",
+      "name": "Random seed 28",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 87900,
+      "demandKg": 162780,
+      "fefo": {
+        "net": 1036058,
+        "spoiledKg": 12350,
+        "spoilageRate": 0.14050056882821388,
+        "fulfilment": 0.36343531146332475,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 27,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1368301.6471982186,
+        "spoiledKg": 7931.092000000001,
+        "spoilageRate": 0.09022857792946531,
+        "fulfilment": 0.36343531146332475,
+        "minDestinationFill": 0,
+        "markdownKg": 4418.905327708767,
+        "trucks": 27,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1691308.0177068706,
+        "spoiledKg": 6831.714999999999,
+        "spoilageRate": 0.07772144482366325,
+        "fulfilment": 0.3950116721956014,
+        "minDestinationFill": 0.1867704280155642,
+        "markdownKg": 11067.499403407515,
+        "trucks": 26,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 49.542600000000675,
+      "consistencyGap": 0.3257938080932945,
+      "stress": {
+        "futures": 100,
+        "fefo": 646808.3470707871,
+        "clearance": 866779.6745768776,
+        "optimizer": 938411.8277070739,
+        "optimizerP05": 620878.2847898318,
+        "clearanceP05": 580921.0239498412
+      }
+    },
+    {
+      "id": "random-29",
+      "name": "Random seed 29",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 89525,
+      "demandKg": 134380,
+      "fefo": {
+        "net": 1663503,
+        "spoiledKg": 13275,
+        "spoilageRate": 0.1482826026249651,
+        "fulfilment": 0.37386515850573004,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1855212.7607858682,
+        "spoiledKg": 10212.301,
+        "spoilageRate": 0.11407205808433397,
+        "fulfilment": 0.37488207322518236,
+        "minDestinationFill": 0,
+        "markdownKg": 2926.045000888275,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2637918.6229581763,
+        "spoiledKg": 6838.626,
+        "spoilageRate": 0.07638789165037699,
+        "fulfilment": 0.39078571215954755,
+        "minDestinationFill": 0,
+        "markdownKg": 14955.06800447075,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 58.38810000000012,
+      "consistencyGap": 0.2997764488682151,
+      "stress": {
+        "futures": 100,
+        "fefo": 1320040.1390082282,
+        "clearance": 1421015.9918830362,
+        "optimizer": 1830528.880970391,
+        "optimizerP05": 1366424.564548454,
+        "clearanceP05": 1151155.7210274911
+      }
+    },
+    {
+      "id": "random-30",
+      "name": "Random seed 30",
+      "tests": "Randomised operating conditions",
+      "inventoryKg": 75225,
+      "demandKg": 126750,
+      "fefo": {
+        "net": 1454772,
+        "spoiledKg": 9605,
+        "spoilageRate": 0.12768361581920903,
+        "fulfilment": 0.39108481262327416,
+        "minDestinationFill": 0,
+        "markdownKg": 0,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "clearance": {
+        "net": 1636330.8482340279,
+        "spoiledKg": 7171.641,
+        "spoilageRate": 0.09533587238285145,
+        "fulfilment": 0.39163664694280076,
+        "minDestinationFill": 0,
+        "markdownKg": 2363.4119609813083,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 2284680.7779033636,
+        "spoiledKg": 4787.165,
+        "spoilageRate": 0.06363795280824194,
+        "fulfilment": 0.41391766469428004,
+        "minDestinationFill": 0,
+        "markdownKg": 14488.550092268162,
+        "trucks": 20,
+        "feasible": true,
+        "violations": 0
+      },
+      "status": "optimal",
+      "solveMs": 82.36209999999846,
+      "consistencyGap": 0.3806335795670748,
+      "stress": {
+        "futures": 100,
+        "fefo": 1242388.6754258256,
+        "clearance": 1336898.4733691846,
+        "optimizer": 1591002.2198666146,
+        "optimizerP05": 1131596.6688947696,
+        "clearanceP05": 1076800.1182341974
+      }
+    }
+  ],
+  "summary": {
+    "named": {
+      "rows": 11,
+      "netGainVsFefo": 9895027.549617479,
+      "netGainVsClearance": 6392022.766739464,
+      "spoilageFefo": 0.2284782539021185,
+      "spoilageClearance": 0.17753418480176913,
+      "spoilageOptimizer": 0.1410291088426653,
+      "fulfilmentFefo": 0.4402979555613989,
+      "fulfilmentClearance": 0.44193746850074506,
+      "fulfilmentOptimizer": 0.4569281330802436,
+      "optimizerWinsNet": 11,
+      "ties": 0,
+      "optimizerLosesNet": 0,
+      "infeasiblePlans": 0
+    },
+    "random": {
+      "rows": 30,
+      "netGainVsFefo": 20255703.219983768,
+      "netGainVsClearance": 14977199.265437886,
+      "spoilageFefo": 0.263219962221225,
+      "spoilageClearance": 0.22746317279093303,
+      "spoilageOptimizer": 0.18331675937424988,
+      "fulfilmentFefo": 0.340128232420562,
+      "fulfilmentClearance": 0.34061075690180614,
+      "fulfilmentOptimizer": 0.36063952824586565,
+      "optimizerWinsNet": 30,
+      "ties": 0,
+      "optimizerLosesNet": 0,
+      "infeasiblePlans": 0
+    }
+  },
+  "robust": {
+    "trainSize": 150,
+    "testSize": 300,
+    "candidates": [
+      {
+        "kappa": 0,
+        "nominalNet": 3098108.937596977,
+        "trainMean": 1796109.5588841946,
+        "testMean": 1772249.8238620071
+      },
+      {
+        "kappa": 0.5,
+        "nominalNet": 2528152.089770025,
+        "trainMean": 1807689.2259445405,
+        "testMean": 1790518.942801918
+      },
+      {
+        "kappa": 1,
+        "nominalNet": 1948512.8611574618,
+        "trainMean": 1637650.6213277096
+      },
+      {
+        "kappa": 1.5,
+        "nominalNet": 1315277.6615700542,
+        "trainMean": 1173427.8718188088
+      },
+      {
+        "kappa": 2,
+        "nominalNet": 855695.5118359714,
+        "trainMean": 785661.6669083047
+      }
+    ],
+    "chosenKappa": 0.5,
+    "test": {
+      "nominal": {
+        "mean": 1772249.8238620071,
+        "p05": 1094423.623046789
+      },
+      "chosen": {
+        "mean": 1790518.942801918,
+        "p05": 1289324.868293394
+      },
+      "baseline": {
+        "mean": 1442594.581918545,
+        "p05": 889671.913505759
+      }
+    }
+  },
+  "replans": [
+    {
+      "id": "del-delay",
+      "title": "Delhi truck stuck behind a ghat landslide",
+      "asOfDay": 1,
+      "staleNet": 2455372.8742423663,
+      "staleViolations": 17,
+      "replannedNet": 2803060.0885063447,
+      "staleSpoiled": 16853.88670058473,
+      "replannedSpoiled": 10271.303580730213,
+      "moved": 12
+    },
+    {
+      "id": "strike",
+      "title": "Transporter strike cuts the fleet",
+      "asOfDay": 1,
+      "staleNet": 1914640.2681753875,
+      "staleViolations": 51,
+      "replannedNet": 2571756.198285156,
+      "staleSpoiled": 20784.007,
+      "replannedSpoiled": 10624.384999999998,
+      "moved": 17
+    },
+    {
+      "id": "mumbai-glut",
+      "title": "Mumbai market glut",
+      "asOfDay": 1,
+      "staleNet": 2674734.778799718,
+      "staleViolations": 18,
+      "replannedNet": 2911177.4100995134,
+      "staleSpoiled": 12618.851703633532,
+      "replannedSpoiled": 7377.138000000001,
+      "moved": 17
+    },
+    {
+      "id": "cold-room",
+      "title": "Cold-room compressor failure",
+      "asOfDay": 0,
+      "staleNet": 1277917.7298141406,
+      "staleViolations": 28,
+      "replannedNet": 2234861.1111735953,
+      "staleSpoiled": 21349.43769387755,
+      "replannedSpoiled": 12440.236,
+      "moved": 14
+    },
+    {
+      "id": "rush-order",
+      "title": "Rush order from FreshKart",
+      "asOfDay": 1,
+      "staleNet": 3081908.937596977,
+      "staleViolations": 0,
+      "replannedNet": 3128971.854718933,
+      "staleSpoiled": 6540.192,
+      "replannedSpoiled": 6540.192,
+      "moved": 10
+    },
+    {
+      "id": "pune-closure",
+      "title": "Pune lane closed for two nights",
+      "asOfDay": 1,
+      "staleNet": 2827634.413861451,
+      "staleViolations": 16,
+      "replannedNet": 3014365.5308310464,
+      "staleSpoiled": 10788.135,
+      "replannedSpoiled": 7267.610000000001,
+      "moved": 16
+    }
+  ]
+}

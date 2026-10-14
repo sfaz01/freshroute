@@ -14,7 +14,8 @@ how much, at what price tier, and how many trucks run on each lane** — and it 
 - **It knows what it doesn't know.** Plans are stress-tested on seeded futures where shelf life, transit time, demand and price are
   wrong; the tool flags fragile loads and calibrates a risk-buffered plan on training futures, reporting it on different test futures.
 
-> Data is synthetic. City coordinates and approximate road times are real; every quantity, price and cost is invented. Nothing on screen is a live vehicle or live price.
+> Data is synthetic (permitted by the hackathon). City coordinates and approximate road times are real; quantities, prices and costs are
+> invented but checked against public figures — see [docs/DATASET.md](docs/DATASET.md). Nothing on screen is a live vehicle or live price.
 
 ---
 
@@ -43,19 +44,19 @@ The demo needs no network connection, credentials or paid services.
 
 ## The 2-minute tour
 
-1. **Situation** — 120 t across 22 batches, 6 crops, 8 outlets, 6 trucks a night. 24 t is at shelf-life risk; one coriander lot
+1. **Situation** — 120 t across 22 batches, 6 crops, 8 outlets, 6 trucks a night. 43 t is at shelf-life risk; one coriander lot
    cannot reach any buyer in time (the tool says so up front, for every plan).
-2. **Dispatch plan** — FreshRoute vs. the baseline on the same ledger: net **₹30.98 L vs ₹23.57 L**, spoilage **6.5 t vs 11.9 t**,
-   fulfilment 60.9% vs 60.0%, 20 trucks vs 24. Proof strip: *proven optimal · 5/5 hard-constraint audits passed · books balance*.
+2. **Dispatch plan** — FreshRoute vs. the baseline on the same ledger: net **₹28.61 L vs ₹21.92 L**, spoilage **7.7 t vs 12.2 t**,
+   fulfilment 60.6% vs 58.8%, 20 trucks vs 24. Proof strip: *proven optimal · 5/5 hard-constraint audits passed · books balance*.
    Truck manifests per night, shelf-life timeline, demand served per outlet, markdown desk.
 3. **Receipt** — click any batch. Itemised economics, the shadow price of the lot, every outlet with the reason it was chosen,
    rejected or impossible, and buttons that re-solve the plan to price an alternative (e.g. *not* sending GRP-01 to Mumbai costs
-   ₹55,925 and 749 kg of extra spoilage). Apply it as an override if you disagree — the plan re-optimises around you.
-4. **Disrupt & replan** — it is D1, the Delhi truck is 14 h late. Executing the old plan breaks 17 times (₹24.55 L);
-   the replan freezes what has left and re-routes 12 batches (₹28.03 L, 6.6 t less spoilage).
-5. **Stress test** — 200 seeded futures. FreshRoute's mean ₹17.98 L vs ₹14.85 L for the baseline, the ten most fragile loads,
+   ₹56,662 and 749 kg of extra spoilage). Apply it as an override if you disagree — the plan re-optimises around you.
+4. **Disrupt & replan** — it is D1, the Delhi truck is 14 h late. Executing the old plan breaks 17 times (₹22.61 L);
+   the replan freezes what has left and re-routes 15 batches (₹25.80 L, 6.4 t less spoilage).
+5. **Stress test** — 200 seeded futures. FreshRoute's mean ₹16.46 L vs ₹13.61 L for the baseline, the ten most fragile loads,
    and a risk-buffered plan chosen on training futures.
-6. **Trade-offs** — what one more truck tonight is worth (+₹42,572), what each extra point of fulfilment costs, scarcest markets.
+6. **Trade-offs** — what one more truck tonight is worth (+₹35,518), what each extra point of fulfilment costs, scarcest markets.
 7. **Benchmark** — every scenario, both baselines, in the browser. **Data & assumptions** — every input and rule; import your own JSON.
 
 A step-by-step judging script is in [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md).
@@ -66,19 +67,19 @@ Full report: [docs/EVALUATION.md](docs/EVALUATION.md). Every number there is gen
 
 | 11 named scenarios | FEFO baseline | FEFO + clearance | FreshRoute |
 |---|---|---|---|
-| Spoilage (kg-weighted) | 22.8% | 17.8% | **14.1%** |
-| Fulfilment (demand-weighted) | 44.0% | 44.2% | **45.7%** |
-| Net gain of FreshRoute | +₹98.95 L | +₹63.92 L | — |
+| Spoilage (kg-weighted) | 23.3% | 18.0% | **14.7%** |
+| Fulfilment (demand-weighted) | 43.1% | 43.2% | **45.1%** |
+| Net gain of FreshRoute | +₹93.32 L | +₹59.20 L | — |
 | Hard-constraint violations | 0 | 0 | 0 |
 
-30 seeded random scenarios: spoilage 26.3% / 22.7% / **18.3%**, fulfilment 34.0% / 34.1% / **36.1%**, FreshRoute net higher in 30/30.
+30 seeded random scenarios: spoilage 26.6% / 23.1% / **18.5%**, fulfilment 33.6% / 33.7% / **35.5%**, FreshRoute net higher in 30/30.
 
 **Where it does not win** (reported, not hidden):
 - Under uncertainty the *nominal* optimum loses to the clearance baseline on average in 1 of 41 scenarios (*Short supply*):
   it uses every hour of shelf-life slack, so it is fragile when estimates are wrong. The risk-buffered plan exists for this.
 - Fulfilment is lower than a baseline in 7 of 41 scenarios — the objective is net outcome, so scarce stock goes where it is
   worth more, not where it fills more kilograms. The Trade-offs view shows the exact price of serving more.
-- In *Little headroom* (one market, ample trucks) the gain is only truck consolidation (+2.6%), as it should be.
+- In *Little headroom* (one market, ample trucks) the gain is only truck consolidation (+3.2%), as it should be.
 - Higher-or-equal net *under published estimates* is guaranteed by construction (both baselines are feasible plans of the model),
   so spoilage, fulfilment and stressed outcomes are the informative comparisons.
 
@@ -162,6 +163,7 @@ Invalid rows are dropped or repaired with a line-by-line report; unusable files 
 
 ## Documents
 
+- [docs/DATASET.md](docs/DATASET.md) — how the synthetic dataset was built and checked against public data
 - [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) — every mandatory requirement → implementation → test
 - [docs/MODEL.md](docs/MODEL.md) — concept, formulation, design decisions and trade-offs
 - [docs/EVALUATION.md](docs/EVALUATION.md) — generated evaluation report

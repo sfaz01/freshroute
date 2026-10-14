@@ -12,8 +12,8 @@ export const COMMODITIES: Commodity[] = [
   { id: 'TOM', name: 'Tomato', handlingCostPerKg: 1.2, spoilageCostPerKg: 14, carryValuePerKg: 0, minSaleLifeHours: 18, fullPriceLifeHours: 42, elasticity: 1.6, shelfLifeCv: 0.15 },
   { id: 'GRP', name: 'Grapes', handlingCostPerKg: 2.5, spoilageCostPerKg: 46, carryValuePerKg: 0, minSaleLifeHours: 24, fullPriceLifeHours: 60, elasticity: 2.0, shelfLifeCv: 0.12 },
   { id: 'COR', name: 'Coriander', handlingCostPerKg: 1.5, spoilageCostPerKg: 20, carryValuePerKg: 0, minSaleLifeHours: 8, fullPriceLifeHours: 20, elasticity: 1.4, shelfLifeCv: 0.2 },
-  { id: 'ONI', name: 'Onion', handlingCostPerKg: 0.8, spoilageCostPerKg: 13, carryValuePerKg: 12, minSaleLifeHours: 48, fullPriceLifeHours: 120, elasticity: 0.9, shelfLifeCv: 0.08 },
-  { id: 'CAP', name: 'Capsicum', handlingCostPerKg: 1.5, spoilageCostPerKg: 26, carryValuePerKg: 0, minSaleLifeHours: 18, fullPriceLifeHours: 48, elasticity: 1.5, shelfLifeCv: 0.15 },
+  { id: 'ONI', name: 'Onion', handlingCostPerKg: 0.8, spoilageCostPerKg: 11, carryValuePerKg: 10, minSaleLifeHours: 48, fullPriceLifeHours: 120, elasticity: 0.9, shelfLifeCv: 0.08 },
+  { id: 'CAP', name: 'Capsicum', handlingCostPerKg: 1.5, spoilageCostPerKg: 18, carryValuePerKg: 0, minSaleLifeHours: 18, fullPriceLifeHours: 48, elasticity: 1.5, shelfLifeCv: 0.15 },
   { id: 'BAN', name: 'Banana', handlingCostPerKg: 1.0, spoilageCostPerKg: 15, carryValuePerKg: 0, minSaleLifeHours: 18, fullPriceLifeHours: 40, elasticity: 1.3, shelfLifeCv: 0.15 },
 ];
 
@@ -30,13 +30,13 @@ export const DESTINATIONS: Destination[] = [
 
 /** Base demand (kg per session) and list price (₹/kg) by destination × commodity. */
 export const MARKET: Record<string, Record<string, [number, number]>> = {
-  MUM: { TOM: [3000, 26], GRP: [1500, 72], COR: [600, 48], ONI: [2500, 19], CAP: [750, 44], BAN: [1250, 24] },
-  RET: { TOM: [1000, 30], GRP: [600, 84], COR: [300, 56], CAP: [350, 52], BAN: [500, 28] },
-  PUN: { TOM: [1750, 24], GRP: [750, 66], COR: [400, 44], ONI: [1500, 18], CAP: [450, 40], BAN: [750, 22] },
-  SUR: { TOM: [1250, 23], GRP: [600, 64], COR: [200, 40], ONI: [1000, 18], CAP: [300, 38], BAN: [600, 23] },
-  AMD: { TOM: [1500, 27], GRP: [900, 74], COR: [250, 46], ONI: [1500, 20], CAP: [400, 46], BAN: [750, 26] },
-  HYD: { TOM: [1500, 25], GRP: [750, 70], ONI: [1750, 21], CAP: [400, 42] },
-  DEL: { TOM: [2500, 34], GRP: [1500, 92], ONI: [2500, 24], CAP: [750, 58], BAN: [1000, 30] },
+  MUM: { TOM: [3000, 26], GRP: [1500, 72], COR: [600, 48], ONI: [2500, 16], CAP: [750, 30], BAN: [1250, 24] },
+  RET: { TOM: [1000, 30], GRP: [600, 84], COR: [300, 56], CAP: [350, 36], BAN: [500, 28] },
+  PUN: { TOM: [1750, 24], GRP: [750, 66], COR: [400, 44], ONI: [1500, 15], CAP: [450, 27], BAN: [750, 22] },
+  SUR: { TOM: [1250, 23], GRP: [600, 64], COR: [200, 40], ONI: [1000, 15], CAP: [300, 26], BAN: [600, 23] },
+  AMD: { TOM: [1500, 27], GRP: [900, 74], COR: [250, 46], ONI: [1500, 17], CAP: [400, 31], BAN: [750, 26] },
+  HYD: { TOM: [1500, 25], GRP: [750, 70], ONI: [1750, 18], CAP: [400, 29] },
+  DEL: { TOM: [2500, 34], GRP: [1500, 92], ONI: [2500, 20], CAP: [750, 40], BAN: [1000, 30] },
   NSK: { TOM: [3000, 9], GRP: [1000, 30], BAN: [1250, 10] },
 };
 
@@ -55,9 +55,9 @@ export const BASE_BATCHES: Batch[] = [
   { id: 'GRP-03', commodityId: 'GRP', quantityKg: 7000, remainingShelfLifeHours: 140, availableFromDay: 0, source: 'Dindori' },
   { id: 'GRP-04', commodityId: 'GRP', quantityKg: 5000, remainingShelfLifeHours: 168, availableFromDay: 1, source: 'Dindori · inbound D1' },
   { id: 'COR-01', commodityId: 'COR', quantityKg: 900, remainingShelfLifeHours: 34, availableFromDay: 0, source: 'Nashik Road' },
-  { id: 'COR-02', commodityId: 'COR', quantityKg: 2000, remainingShelfLifeHours: 52, availableFromDay: 0, source: 'Nashik Road' },
-  { id: 'COR-03', commodityId: 'COR', quantityKg: 1500, remainingShelfLifeHours: 76, availableFromDay: 1, source: 'Ozar · inbound D1' },
-  { id: 'COR-04', commodityId: 'COR', quantityKg: 1500, remainingShelfLifeHours: 100, availableFromDay: 2, source: 'Ozar · inbound D2' },
+  { id: 'COR-02', commodityId: 'COR', quantityKg: 2000, remainingShelfLifeHours: 44, availableFromDay: 0, source: 'Nashik Road' },
+  { id: 'COR-03', commodityId: 'COR', quantityKg: 1500, remainingShelfLifeHours: 74, availableFromDay: 1, source: 'Ozar · inbound D1' },
+  { id: 'COR-04', commodityId: 'COR', quantityKg: 1500, remainingShelfLifeHours: 98, availableFromDay: 2, source: 'Ozar · inbound D2' },
   { id: 'ONI-01', commodityId: 'ONI', quantityKg: 12000, remainingShelfLifeHours: 400, availableFromDay: 0, source: 'Lasalgaon · chawl A' },
   { id: 'ONI-02', commodityId: 'ONI', quantityKg: 12000, remainingShelfLifeHours: 600, availableFromDay: 0, source: 'Lasalgaon · chawl B' },
   { id: 'ONI-03', commodityId: 'ONI', quantityKg: 8000, remainingShelfLifeHours: 700, availableFromDay: 0, source: 'Yeola' },

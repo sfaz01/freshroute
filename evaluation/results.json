@@ -10,10 +10,10 @@
       "inventoryKg": 120400,
       "demandKg": 127520,
       "fefo": {
-        "net": 2046294,
-        "spoiledKg": 17720,
-        "spoilageRate": 0.14717607973421926,
-        "fulfilment": 0.5965338770388958,
+        "net": 1887301,
+        "spoiledKg": 18520,
+        "spoilageRate": 0.15382059800664452,
+        "fulfilment": 0.5855552070263488,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 24,
@@ -21,37 +21,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 2356646.4694045265,
-        "spoiledKg": 11895.883999999998,
-        "spoilageRate": 0.09880302325581394,
-        "fulfilment": 0.5995811245294858,
+        "net": 2191889.3609937085,
+        "spoiledKg": 12215.883999999998,
+        "spoilageRate": 0.10146083056478404,
+        "fulfilment": 0.5875867079673777,
         "minDestinationFill": 0,
-        "markdownKg": 5435.526563074708,
+        "markdownKg": 6045.054328753274,
         "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 3098108.937596977,
-        "spoiledKg": 6540.192,
-        "spoilageRate": 0.05432053156146179,
-        "fulfilment": 0.6092374843161857,
+        "net": 2860692.4333642796,
+        "spoiledKg": 7700.192,
+        "spoilageRate": 0.0639550830564784,
+        "fulfilment": 0.6057915934755332,
         "minDestinationFill": 0,
-        "markdownKg": 24148.294464072424,
+        "markdownKg": 23575.13549347106,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 250.79200000000003,
-      "consistencyGap": 0.3285236689262092,
+      "solveMs": 284.61710000000005,
+      "consistencyGap": 0.2983176866546273,
       "stress": {
         "futures": 100,
-        "fefo": 1333505.1515540252,
-        "clearance": 1485154.5672060829,
-        "optimizer": 1831934.775019255,
-        "optimizerP05": 1239791.279009166,
-        "clearanceP05": 983361.4995811459
+        "fefo": 1206963.096137632,
+        "clearance": 1357649.1460494888,
+        "optimizer": 1674092.0400502034,
+        "optimizerP05": 1138763.0294959634,
+        "clearanceP05": 845442.0966563249
       }
     },
     {
@@ -61,10 +61,10 @@
       "inventoryKg": 192640,
       "demandKg": 127520,
       "fefo": {
-        "net": 1671988,
-        "spoiledKg": 49960,
-        "spoilageRate": 0.259343853820598,
-        "fulfilment": 0.6170796737766625,
+        "net": 1485389,
+        "spoiledKg": 50760,
+        "spoilageRate": 0.26349667774086377,
+        "fulfilment": 0.6061010037641155,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 24,
@@ -72,37 +72,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 2051655.6777440603,
-        "spoiledKg": 42015.6,
-        "spoilageRate": 0.21810423588039865,
-        "fulfilment": 0.6201269212672523,
+        "net": 1859292.5693332423,
+        "spoiledKg": 42335.59999999999,
+        "spoilageRate": 0.21976536544850495,
+        "fulfilment": 0.6081325047051443,
         "minDestinationFill": 0,
-        "markdownKg": 7555.810563074709,
+        "markdownKg": 8165.338328753274,
         "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 3466528.340648342,
-        "spoiledKg": 28523.637000000002,
-        "spoilageRate": 0.1480670525332226,
-        "fulfilment": 0.6812008234002509,
+        "net": 3202031.71050153,
+        "spoiledKg": 29351.056999999997,
+        "spoilageRate": 0.15236221449335546,
+        "fulfilment": 0.6751423227728984,
         "minDestinationFill": 0,
-        "markdownKg": 34308.02563244317,
+        "markdownKg": 34419.768458580445,
         "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 201.68280000000004,
-      "consistencyGap": 0.42112968070432544,
+      "solveMs": 89.2521999999999,
+      "consistencyGap": 0.40644716937094927,
       "stress": {
         "futures": 100,
-        "fefo": 924271.3745110817,
-        "clearance": 1102068.812935094,
-        "optimizer": 1773130.4916714486,
-        "optimizerP05": 1008216.2580690103,
-        "clearanceP05": 468276.51394738187
+        "fefo": 773499.5878240656,
+        "clearance": 950959.4743655946,
+        "optimizer": 1545876.0615779655,
+        "optimizerP05": 823293.2773723318,
+        "clearanceP05": 362774.8585836261
       }
     },
     {
@@ -112,48 +112,48 @@
       "inventoryKg": 60200,
       "demandKg": 127520,
       "fefo": {
-        "net": 1489497,
-        "spoiledKg": 3930,
-        "spoilageRate": 0.06528239202657807,
-        "fulfilment": 0.40111355081555833,
-        "minDestinationFill": 0,
+        "net": 1302571,
+        "spoiledKg": 4730,
+        "spoilageRate": 0.07857142857142857,
+        "fulfilment": 0.3948400250941029,
+        "minDestinationFill": 0.109375,
         "markdownKg": 0,
-        "trucks": 16,
+        "trucks": 18,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": 1695500.9681331897,
-        "spoiledKg": 450,
-        "spoilageRate": 0.007475083056478406,
-        "fulfilment": 0.40151425658720197,
-        "minDestinationFill": 0,
-        "markdownKg": 3428.899266543805,
-        "trucks": 16,
+        "net": 1493987.3424937327,
+        "spoiledKg": 1009.604,
+        "spoilageRate": 0.016770830564784053,
+        "fulfilment": 0.3948400250941029,
+        "minDestinationFill": 0.109375,
+        "markdownKg": 3720.393003519769,
+        "trucks": 18,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1842334.2953005072,
-        "spoiledKg": 481.5929999999998,
-        "spoilageRate": 0.00799988372093023,
-        "fulfilment": 0.3754100768506901,
+        "net": 1677610.1982374098,
+        "spoiledKg": 1093.008,
+        "spoilageRate": 0.018156279069767443,
+        "fulfilment": 0.3672173462986198,
         "minDestinationFill": 0,
-        "markdownKg": 10433.200358633607,
+        "markdownKg": 10866.52059361689,
         "trucks": 13,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 154.79959999999983,
-      "consistencyGap": 0.160405982285738,
+      "solveMs": 198.13619999999992,
+      "consistencyGap": 0.19250996364280581,
       "stress": {
         "futures": 100,
-        "fefo": 1084821.685325619,
-        "clearance": 1201935.8624631532,
-        "optimizer": 1132196.1145510583,
-        "optimizerP05": 751440.4173293593,
-        "clearanceP05": 909611.4989707945
+        "fefo": 924095.809567792,
+        "clearance": 1034946.3959836906,
+        "optimizer": 1026536.9484317121,
+        "optimizerP05": 652538.7702758126,
+        "clearanceP05": 754230.0669139398
       }
     },
     {
@@ -163,10 +163,10 @@
       "inventoryKg": 120400,
       "demandKg": 127520,
       "fefo": {
-        "net": 1149770,
-        "spoiledKg": 25420,
-        "spoilageRate": 0.21112956810631228,
-        "fulfilment": 0.3590809284818068,
+        "net": 1013707,
+        "spoiledKg": 26220,
+        "spoilageRate": 0.21777408637873755,
+        "fulfilment": 0.35280740276035133,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 12,
@@ -174,37 +174,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1330741.617883076,
-        "spoiledKg": 21363.382,
-        "spoilageRate": 0.17743672757475085,
-        "fulfilment": 0.3590809284818068,
+        "net": 1202514.0331867314,
+        "spoiledKg": 21683.382,
+        "spoilageRate": 0.18009453488372093,
+        "fulfilment": 0.35280740276035133,
         "minDestinationFill": 0,
-        "markdownKg": 4056.6156164221397,
+        "markdownKg": 4536.6153921952455,
         "trucks": 12,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 2234297.758898685,
-        "spoiledKg": 22279.384,
-        "spoilageRate": 0.18504471760797342,
-        "fulfilment": 0.43777737609786693,
+        "net": 2070342.178530075,
+        "spoiledKg": 22626.804,
+        "spoilageRate": 0.1879302657807309,
+        "fulfilment": 0.43277520388958596,
         "minDestinationFill": 0,
-        "markdownKg": 20987.47512230767,
+        "markdownKg": 21320.05643503776,
         "trucks": 12,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 72.06840000000011,
-      "consistencyGap": 0.2423906777985394,
+      "solveMs": 68.9698999999996,
+      "consistencyGap": 0.2404573445674032,
       "stress": {
         "futures": 100,
-        "fefo": 702205.377253502,
-        "clearance": 783446.8189866584,
-        "optimizer": 1140560.7368340166,
-        "optimizerP05": 590861.9358778459,
-        "clearanceP05": 410892.7475768755
+        "fefo": 586011.8862654071,
+        "clearance": 675378.4536851342,
+        "optimizer": 1025123.5042113251,
+        "optimizerP05": 543314.9189646661,
+        "clearanceP05": 306922.2376940476
       }
     },
     {
@@ -214,29 +214,29 @@
       "inventoryKg": 120400,
       "demandKg": 127520,
       "fefo": {
-        "net": -914276,
+        "net": -868350,
         "spoiledKg": 66800,
         "spoilageRate": 0.5548172757475083,
-        "fulfilment": 0.30834378920953576,
+        "fulfilment": 0.26772271016311167,
         "minDestinationFill": 0,
         "markdownKg": 0,
-        "trucks": 24,
+        "trucks": 22,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": -33843.259117476875,
-        "spoiledKg": 51179.03300000001,
-        "spoilageRate": 0.4250750249169436,
-        "fulfilment": 0.30834378920953576,
+        "net": 12728.328802032629,
+        "spoiledKg": 50511.138000000006,
+        "spoilageRate": 0.41952772425249174,
+        "fulfilment": 0.26772271016311167,
         "minDestinationFill": 0,
-        "markdownKg": 15620.961968538917,
-        "trucks": 24,
+        "markdownKg": 16288.857285647226,
+        "trucks": 22,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 326960.9612442243,
+        "net": 272403.1907710345,
         "spoiledKg": 47041.014,
         "spoilageRate": 0.39070609634551495,
         "fulfilment": 0.23787594887076535,
@@ -247,15 +247,15 @@
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 29.115299999999934,
-      "consistencyGap": 0.15260890556965023,
+      "solveMs": 30.671499999999924,
+      "consistencyGap": 0.1377993953647092,
       "stress": {
         "futures": 100,
-        "fefo": -1138657.4325892944,
-        "clearance": -651335.5679792331,
-        "optimizer": -401849.6102434591,
-        "optimizerP05": -846667.9784825009,
-        "clearanceP05": -1089278.7404188025
+        "fefo": -1076598.1022316797,
+        "clearance": -592969.2446795357,
+        "optimizer": -438486.97997814784,
+        "optimizerP05": -874800.0011871327,
+        "clearanceP05": -1018152.2116523583
       }
     },
     {
@@ -265,10 +265,10 @@
       "inventoryKg": 120400,
       "demandKg": 127520,
       "fefo": {
-        "net": 2055374,
-        "spoiledKg": 17720,
-        "spoilageRate": 0.14717607973421926,
-        "fulfilment": 0.5918287327478042,
+        "net": 1887301,
+        "spoiledKg": 18520,
+        "spoilageRate": 0.15382059800664452,
+        "fulfilment": 0.5855552070263488,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 24,
@@ -276,37 +276,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 2365726.4694045265,
-        "spoiledKg": 11895.883999999998,
-        "spoilageRate": 0.09880302325581394,
-        "fulfilment": 0.5948759802383942,
+        "net": 2191889.3609937085,
+        "spoiledKg": 12215.883999999998,
+        "spoilageRate": 0.10146083056478404,
+        "fulfilment": 0.5875867079673777,
         "minDestinationFill": 0,
-        "markdownKg": 5435.526563074708,
+        "markdownKg": 6045.054328753274,
         "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 2918779.49207924,
-        "spoiledKg": 6593.710000000001,
-        "spoilageRate": 0.05476503322259137,
-        "fulfilment": 0.5906401819322458,
+        "net": 2692493.251880188,
+        "spoiledKg": 7753.710000000001,
+        "spoilageRate": 0.06439958471760798,
+        "fulfilment": 0.5853076772271016,
         "minDestinationFill": 0,
-        "markdownKg": 23039.771770797364,
+        "markdownKg": 23039.771505924706,
         "trucks": 21,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 167.183,
-      "consistencyGap": 0.27635839534923434,
+      "solveMs": 167.67000000000007,
+      "consistencyGap": 0.27633094415068626,
       "stress": {
         "futures": 100,
-        "fefo": 1348688.0652530903,
-        "clearance": 1500337.4809051484,
-        "optimizer": 1719337.0617372128,
-        "optimizerP05": 1110462.8033146558,
-        "clearanceP05": 988583.6717896379
+        "fefo": 1206144.592199093,
+        "clearance": 1356830.6421109498,
+        "optimizer": 1572475.444637948,
+        "optimizerP05": 1010478.3588822668,
+        "clearanceP05": 845442.0966563249
       }
     },
     {
@@ -316,10 +316,10 @@
       "inventoryKg": 120400,
       "demandKg": 128352,
       "fefo": {
-        "net": 1600794,
-        "spoiledKg": 21720,
-        "spoilageRate": 0.18039867109634553,
-        "fulfilment": 0.5033034156070805,
+        "net": 1464058,
+        "spoiledKg": 22280,
+        "spoilageRate": 0.18504983388704319,
+        "fulfilment": 0.4923959112440788,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 24,
@@ -327,37 +327,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 2010978.6115971224,
-        "spoiledKg": 13804.696999999998,
-        "spoilageRate": 0.11465695182724252,
-        "fulfilment": 0.5063309103091498,
+        "net": 1845359.726006697,
+        "spoiledKg": 14364.696999999998,
+        "spoilageRate": 0.11930811461794019,
+        "fulfilment": 0.49441424364248315,
         "minDestinationFill": 0,
-        "markdownKg": 7526.713467908317,
+        "markdownKg": 7656.24145781378,
         "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 2881525.793591739,
-        "spoiledKg": 8997.483999999999,
-        "spoilageRate": 0.07472993355481726,
-        "fulfilment": 0.5784949903390676,
+        "net": 2670135.6854852503,
+        "spoiledKg": 9917.484,
+        "spoilageRate": 0.08237112956810631,
+        "fulfilment": 0.5495383476689105,
         "minDestinationFill": 0,
-        "markdownKg": 23285.847373944365,
-        "trucks": 22,
+        "markdownKg": 21418.589332606723,
+        "trucks": 21,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 156.16789999999992,
-      "consistencyGap": 0.28493232233449817,
+      "solveMs": 128.73189999999977,
+      "consistencyGap": 0.25017586909234524,
       "stress": {
         "futures": 100,
-        "fefo": 970403.2224555629,
-        "clearance": 1167017.5114974538,
-        "optimizer": 1652818.5858391044,
-        "optimizerP05": 1070272.45685331,
-        "clearanceP05": 680047.6763718531
+        "fefo": 863909.8704881831,
+        "clearance": 1048445.1242481318,
+        "optimizer": 1534778.1298352056,
+        "optimizerP05": 922805.1911277971,
+        "clearanceP05": 557850.2080841565
       }
     },
     {
@@ -367,10 +367,10 @@
       "inventoryKg": 120400,
       "demandKg": 127520,
       "fefo": {
-        "net": 1873350,
-        "spoiledKg": 19360,
-        "spoilageRate": 0.16079734219269104,
-        "fulfilment": 0.5720671267252195,
+        "net": 1705721,
+        "spoiledKg": 20120,
+        "spoilageRate": 0.16710963455149502,
+        "fulfilment": 0.5661072772898369,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 23,
@@ -378,37 +378,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 2191592.735056321,
-        "spoiledKg": 13499.709,
-        "spoilageRate": 0.1121238289036545,
-        "fulfilment": 0.5774912327478042,
+        "net": 2014263.7504113961,
+        "spoiledKg": 13779.709,
+        "spoilageRate": 0.11444941029900332,
+        "fulfilment": 0.5695405191342534,
         "minDestinationFill": 0,
-        "markdownKg": 5168.605512485541,
+        "markdownKg": 5902.480278164108,
         "trucks": 23,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 2896440.82985888,
-        "spoiledKg": 6540.192,
-        "spoilageRate": 0.05432053156146179,
-        "fulfilment": 0.5936865668130489,
+        "net": 2661001.5048239008,
+        "spoiledKg": 7700.192,
+        "spoilageRate": 0.0639550830564784,
+        "fulfilment": 0.5890846220200753,
         "minDestinationFill": 0,
-        "markdownKg": 24367.08384997789,
+        "markdownKg": 23873.137332150232,
         "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 66.09760000000006,
-      "consistencyGap": 0.30627227667719126,
+      "solveMs": 56.03659999999945,
+      "consistencyGap": 0.2818197440356016,
       "stress": {
         "futures": 100,
-        "fefo": 1184749.1610979722,
-        "clearance": 1347907.6713956553,
-        "optimizer": 1650584.907763115,
-        "optimizerP05": 1072549.6801747957,
-        "clearanceP05": 817101.0030989642
+        "fefo": 1047870.7351698086,
+        "clearance": 1204925.5851096592,
+        "optimizer": 1499012.3796057038,
+        "optimizerP05": 971180.2525331808,
+        "clearanceP05": 684955.5719144788
       }
     },
     {
@@ -418,10 +418,10 @@
       "inventoryKg": 120400,
       "demandKg": 127520,
       "fefo": {
-        "net": 2046294,
-        "spoiledKg": 17720,
-        "spoilageRate": 0.14717607973421926,
-        "fulfilment": 0.5965338770388958,
+        "net": 1887301,
+        "spoiledKg": 18520,
+        "spoilageRate": 0.15382059800664452,
+        "fulfilment": 0.5855552070263488,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 24,
@@ -429,37 +429,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 2132853.5854337346,
-        "spoiledKg": 16023.971,
-        "spoilageRate": 0.13308946013289036,
-        "fulfilment": 0.5972956869510666,
+        "net": 1991025.8205983322,
+        "spoiledKg": 16480.826,
+        "spoilageRate": 0.13688393687707642,
+        "fulfilment": 0.5860630803011293,
         "minDestinationFill": 0,
-        "markdownKg": 1598.8792191825225,
+        "markdownKg": 1974.4059896089432,
         "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 2534219.785392856,
-        "spoiledKg": 13980.497,
-        "spoilageRate": 0.11611708471760797,
-        "fulfilment": 0.6450000313676287,
+        "net": 2326644.470813625,
+        "spoiledKg": 15140.497,
+        "spoilageRate": 0.12575163621262458,
+        "fulfilment": 0.6385943303011292,
         "minDestinationFill": 0,
-        "markdownKg": 6378.191631971809,
+        "markdownKg": 6491.746204868465,
         "trucks": 21,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 65.43189999999959,
-      "consistencyGap": 0.4024987993761897,
+      "solveMs": 93.7488000000003,
+      "consistencyGap": 0.40037988824769855,
       "stress": {
         "futures": 100,
-        "fefo": 1024331.196608943,
-        "clearance": 1058579.489932012,
-        "optimizer": 1225513.6901952578,
-        "optimizerP05": 579468.2814162329,
-        "clearanceP05": 403471.84286658326
+        "fefo": 911855.9009035467,
+        "clearance": 955994.7148889314,
+        "optimizer": 1064366.7547415814,
+        "optimizerP05": 433991.18237627426,
+        "clearanceP05": 311176.6251256061
       }
     },
     {
@@ -469,7 +469,7 @@
       "inventoryKg": 32000,
       "demandKg": 184320,
       "fefo": {
-        "net": 538360,
+        "net": 442200,
         "spoiledKg": 0,
         "spoilageRate": 0,
         "fulfilment": 0.1736111111111111,
@@ -480,7 +480,7 @@
         "violations": 0
       },
       "clearance": {
-        "net": 538360,
+        "net": 442200,
         "spoiledKg": 0,
         "spoilageRate": 0,
         "fulfilment": 0.1736111111111111,
@@ -491,7 +491,7 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 552400,
+        "net": 456400,
         "spoiledKg": 0,
         "spoilageRate": 0,
         "fulfilment": 0.1736111111111111,
@@ -502,15 +502,15 @@
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 22.78989999999976,
+      "solveMs": 16.151200000000244,
       "consistencyGap": 0,
       "stress": {
         "futures": 100,
-        "fefo": 520984.9783656494,
-        "clearance": 520984.9783656494,
-        "optimizer": 550658.7346343774,
-        "optimizerP05": 519568.6954369026,
-        "clearanceP05": 471015.83134870254
+        "fefo": 427554.26339898666,
+        "clearance": 427554.26339898666,
+        "optimizer": 454932.2037248527,
+        "optimizerP05": 428756.14330381533,
+        "clearanceP05": 385411.7140638539
       }
     },
     {
@@ -520,7 +520,7 @@
       "inventoryKg": 120400,
       "demandKg": 127520,
       "fefo": {
-        "net": 26302,
+        "net": -31150,
         "spoiledKg": 44800,
         "spoilageRate": 0.37209302325581395,
         "fulfilment": 0.24215809284818068,
@@ -531,37 +531,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 446538.9073389338,
-        "spoiledKg": 39441.604,
-        "spoilageRate": 0.327588073089701,
+        "net": 342791.04837250547,
+        "spoiledKg": 40032.254,
+        "spoilageRate": 0.33249380398671097,
         "fulfilment": 0.24215809284818068,
         "minDestinationFill": 0,
-        "markdownKg": 5358.3936984424845,
+        "markdownKg": 4767.744759009722,
         "trucks": 12,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 727178.3550060269,
-        "spoiledKg": 35032.266,
-        "spoilageRate": 0.29096566445182726,
-        "fulfilment": 0.2286768742158093,
+        "net": 617946.7121223762,
+        "spoiledKg": 35622.914,
+        "spoilageRate": 0.2958713787375415,
+        "fulfilment": 0.23144986668757841,
         "minDestinationFill": 0,
-        "markdownKg": 16931.86741589975,
+        "markdownKg": 16341.220191906488,
         "trucks": 12,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 33.69750000000022,
-      "consistencyGap": 0.14036436821334064,
+      "solveMs": 31.24669999999969,
+      "consistencyGap": 0.04863315331749618,
       "stress": {
         "futures": 100,
-        "fefo": -248076.80417197384,
-        "clearance": -37684.55552350175,
-        "optimizer": 132666.22922298516,
-        "optimizerP05": -183934.9138644752,
-        "clearanceP05": -316889.7870353983
+        "fefo": -289975.3942838973,
+        "clearance": -105073.27832488988,
+        "optimizer": 68700.8696878816,
+        "optimizerP05": -231962.44103839647,
+        "clearanceP05": -358766.96244037687
       }
     }
   ],
@@ -573,10 +573,10 @@
       "inventoryKg": 60725,
       "demandKg": 95320,
       "fefo": {
-        "net": 585011,
-        "spoiledKg": 17755,
-        "spoilageRate": 0.292383696994648,
-        "fulfilment": 0.3084347461183382,
+        "net": 524811,
+        "spoiledKg": 18405,
+        "spoilageRate": 0.30308769040757516,
+        "fulfilment": 0.3016156105749056,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 18,
@@ -584,37 +584,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 647446.7984113465,
-        "spoiledKg": 16653.77,
-        "spoilageRate": 0.27424899135446684,
-        "fulfilment": 0.3084347461183382,
+        "net": 582244.4603190059,
+        "spoiledKg": 17014.016,
+        "spoilageRate": 0.28018140798682584,
+        "fulfilment": 0.3016156105749056,
         "minDestinationFill": 0,
-        "markdownKg": 1101.2281775593688,
+        "markdownKg": 1390.981769483737,
         "trucks": 18,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 888003.4304054992,
-        "spoiledKg": 14324.29,
-        "spoilageRate": 0.23588785508439689,
-        "fulfilment": 0.3132488564834242,
+        "net": 810739.4003503595,
+        "spoiledKg": 14684.536,
+        "spoilageRate": 0.24182027171675588,
+        "fulfilment": 0.30705196181284095,
         "minDestinationFill": 0,
-        "markdownKg": 7102.572112562099,
+        "markdownKg": 7333.012776564456,
         "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 64.61629999999968,
-      "consistencyGap": 0.07989743666257709,
+      "solveMs": 63.68289999999979,
+      "consistencyGap": 0.10496684559620917,
       "stress": {
         "futures": 100,
-        "fefo": 375966.91585449345,
-        "clearance": 411925.1977180637,
-        "optimizer": 482635.84424088715,
-        "optimizerP05": 185606.80387982726,
-        "clearanceP05": 202797.6741861332
+        "fefo": 343021.58612581133,
+        "clearance": 376608.12477074156,
+        "optimizer": 457167.1387691481,
+        "optimizerP05": 181341.75208609022,
+        "clearanceP05": 191781.27209699317
       }
     },
     {
@@ -624,48 +624,48 @@
       "inventoryKg": 75175,
       "demandKg": 96310,
       "fefo": {
-        "net": 649936,
-        "spoiledKg": 22945,
-        "spoilageRate": 0.30522115064848687,
-        "fulfilment": 0.33620600145363927,
+        "net": 553928,
+        "spoiledKg": 23495,
+        "spoilageRate": 0.3125374127036914,
+        "fulfilment": 0.3258228636694009,
         "minDestinationFill": 0,
         "markdownKg": 0,
-        "trucks": 23,
+        "trucks": 22,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": 710737.8984211381,
-        "spoiledKg": 21617.224,
-        "spoilageRate": 0.28755868307283006,
-        "fulfilment": 0.3372146817568269,
+        "net": 614729.8984211381,
+        "spoiledKg": 22167.224,
+        "spoilageRate": 0.2948749451280346,
+        "fulfilment": 0.3268315439725885,
         "minDestinationFill": 0,
         "markdownKg": 1230.628354068736,
-        "trucks": 23,
+        "trucks": 22,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 940026.5502352503,
-        "spoiledKg": 19059.667999999998,
-        "spoilageRate": 0.2535373195876288,
-        "fulfilment": 0.37484876959817254,
+        "net": 814176.6931255148,
+        "spoiledKg": 19895.287999999997,
+        "spoilageRate": 0.2646529830395743,
+        "fulfilment": 0.3609353649672931,
         "minDestinationFill": 0,
-        "markdownKg": 9737.561721233984,
-        "trucks": 25,
+        "markdownKg": 9599.742926320429,
+        "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 57.40350000000035,
-      "consistencyGap": 0.14763285813387483,
+      "solveMs": 107.54299999999967,
+      "consistencyGap": 0.12195154710207134,
       "stress": {
         "futures": 100,
-        "fefo": 463008.36096130364,
-        "clearance": 501662.172301386,
-        "optimizer": 575673.8567731321,
-        "optimizerP05": 231602.80457450432,
-        "clearanceP05": 278456.41677117697
+        "fefo": 391643.4299786878,
+        "clearance": 429757.1060875498,
+        "optimizer": 486958.5624946339,
+        "optimizerP05": 139083.8647078426,
+        "clearanceP05": 191469.25762017677
       }
     },
     {
@@ -675,10 +675,10 @@
       "inventoryKg": 105650,
       "demandKg": 108340,
       "fefo": {
-        "net": 336825,
+        "net": 323798,
         "spoiledKg": 37590,
         "spoilageRate": 0.3557974443918599,
-        "fulfilment": 0.29555104301273766,
+        "fulfilment": 0.29268968063503786,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 16,
@@ -686,10 +686,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 630929.1744987676,
+        "net": 599517.4721980928,
         "spoiledKg": 33265.9,
         "spoilageRate": 0.31486890676762896,
-        "fulfilment": 0.29555104301273766,
+        "fulfilment": 0.29268968063503786,
         "minDestinationFill": 0,
         "markdownKg": 4324.097066287255,
         "trucks": 16,
@@ -697,26 +697,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 1104020.0735670908,
+        "net": 1033946.2376586668,
         "spoiledKg": 29521.398,
         "spoilageRate": 0.2794263890203502,
         "fulfilment": 0.39793678235185526,
         "minDestinationFill": 0,
-        "markdownKg": 16017.476468651952,
+        "markdownKg": 16017.475437839154,
         "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 150.33100000000013,
-      "consistencyGap": 0.28398524899967015,
+      "solveMs": 90.60909999999967,
+      "consistencyGap": 0.2927531230961904,
       "stress": {
         "futures": 100,
-        "fefo": 172909.18502152298,
-        "clearance": 306548.8885717252,
-        "optimizer": 644045.9791727465,
-        "optimizerP05": 257699.43083532547,
-        "clearanceP05": 7058.161161386757
+        "fefo": 153918.2961161327,
+        "clearance": 278161.9986212494,
+        "optimizer": 598394.9209660166,
+        "optimizerP05": 233777.34527973467,
+        "clearanceP05": 26911.76557958778
       }
     },
     {
@@ -726,10 +726,10 @@
       "inventoryKg": 97975,
       "demandKg": 135310,
       "fefo": {
-        "net": 344898.5,
-        "spoiledKg": 39200,
-        "spoilageRate": 0.40010206685378924,
-        "fulfilment": 0.31494346315867267,
+        "net": 298420.5,
+        "spoiledKg": 38650,
+        "spoilageRate": 0.3944883898953815,
+        "fulfilment": 0.3193038208558126,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 20,
@@ -737,37 +737,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 647735.0152996592,
-        "spoiledKg": 34192.487,
-        "spoilageRate": 0.34899195713192144,
-        "fulfilment": 0.3152390806296652,
+        "net": 581789.8882365483,
+        "spoiledKg": 33743.011,
+        "spoilageRate": 0.3444042970145445,
+        "fulfilment": 0.3195994383268051,
         "minDestinationFill": 0,
-        "markdownKg": 4967.510292445057,
+        "markdownKg": 4866.987238218654,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1364283.1099793995,
-        "spoiledKg": 31032.503000000004,
-        "spoilageRate": 0.31673899464149025,
-        "fulfilment": 0.3237822851230508,
+        "net": 1181835.7236721728,
+        "spoiledKg": 31444.403000000002,
+        "spoilageRate": 0.3209431283490687,
+        "fulfilment": 0.3218647623974577,
         "minDestinationFill": 0,
-        "markdownKg": 14881.746613781032,
-        "trucks": 20,
+        "markdownKg": 14390.87316080368,
+        "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 60.932700000000295,
-      "consistencyGap": 0.14142799703404307,
+      "solveMs": 78.22340000000077,
+      "consistencyGap": 0.14694906468503177,
       "stress": {
         "futures": 100,
-        "fefo": 20438.818539819487,
-        "clearance": 148679.36632105638,
-        "optimizer": 531100.6184762084,
-        "optimizerP05": 145981.99856211524,
-        "clearanceP05": -163234.04367695493
+        "fefo": 7204.643596234292,
+        "clearance": 116206.94624100444,
+        "optimizer": 426249.3833461841,
+        "optimizerP05": 57363.08685946395,
+        "clearanceP05": -198319.53874930541
       }
     },
     {
@@ -777,10 +777,10 @@
       "inventoryKg": 68400,
       "demandKg": 156820,
       "fefo": {
-        "net": 576943,
+        "net": 497487,
         "spoiledKg": 19740,
         "spoilageRate": 0.2885964912280702,
-        "fulfilment": 0.21495982655273563,
+        "fulfilment": 0.20947583216426477,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 13,
@@ -788,37 +788,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 735491.7310481585,
-        "spoiledKg": 17036.231,
-        "spoilageRate": 0.24906770467836256,
-        "fulfilment": 0.21495982655273563,
+        "net": 668382.0109375701,
+        "spoiledKg": 16899.884,
+        "spoilageRate": 0.24707432748538008,
+        "fulfilment": 0.20947583216426477,
         "minDestinationFill": 0,
-        "markdownKg": 2703.76875437004,
+        "markdownKg": 2840.1157543700397,
         "trucks": 13,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1248733.7550872425,
-        "spoiledKg": 13823.17,
-        "spoilageRate": 0.20209312865497076,
-        "fulfilment": 0.21354574033924245,
+        "net": 1089996.2983971424,
+        "spoiledKg": 13411.007,
+        "spoilageRate": 0.19606735380116957,
+        "fulfilment": 0.21508834970029334,
         "minDestinationFill": 0,
-        "markdownKg": 10646.361577575726,
-        "trucks": 15,
+        "markdownKg": 10132.131190623802,
+        "trucks": 14,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 31.60360000000037,
-      "consistencyGap": 0.09236193750984967,
+      "solveMs": 31.83350000000064,
+      "consistencyGap": 0.09424879937432706,
       "stress": {
         "futures": 100,
-        "fefo": 397643.918120789,
-        "clearance": 479496.8917199704,
-        "optimizer": 682988.8424480367,
-        "optimizerP05": 288804.59984248236,
-        "clearanceP05": 246617.2263519693
+        "fefo": 324510.65044907725,
+        "clearance": 414264.30502900237,
+        "optimizer": 561883.637208991,
+        "optimizerP05": 164289.11669284606,
+        "clearanceP05": 203096.2303432565
       }
     },
     {
@@ -828,7 +828,7 @@
       "inventoryKg": 108875,
       "demandKg": 132150,
       "fefo": {
-        "net": 1451725,
+        "net": 1385154,
         "spoiledKg": 18055,
         "spoilageRate": 0.16583237657864525,
         "fulfilment": 0.5082103670071888,
@@ -839,7 +839,7 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1737686.779567747,
+        "net": 1671115.7795677467,
         "spoiledKg": 14460.773,
         "spoilageRate": 0.13281995866819746,
         "fulfilment": 0.5082103670071888,
@@ -850,26 +850,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 2397348.670004383,
+        "net": 2311120.771595801,
         "spoiledKg": 10087.014,
         "spoilageRate": 0.09264766016073478,
-        "fulfilment": 0.5418909345440787,
+        "fulfilment": 0.5401215588346575,
         "minDestinationFill": 0,
-        "markdownKg": 18600.469531384435,
+        "markdownKg": 18834.292943676417,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 65.09600000000046,
-      "consistencyGap": 0.18239820143207908,
+      "solveMs": 46.409599999999955,
+      "consistencyGap": 0.1687869499437511,
       "stress": {
         "futures": 100,
-        "fefo": 1103273.8778640663,
-        "clearance": 1250706.064893317,
-        "optimizer": 1475244.4772886462,
-        "optimizerP05": 964175.9644393787,
-        "clearanceP05": 895434.2327496565
+        "fefo": 1037696.171972198,
+        "clearance": 1185117.572103381,
+        "optimizer": 1402417.6967071202,
+        "optimizerP05": 890800.6005854193,
+        "clearanceP05": 830637.756540471
       }
     },
     {
@@ -879,48 +879,48 @@
       "inventoryKg": 98725,
       "demandKg": 155080,
       "fefo": {
-        "net": 781894.5,
+        "net": 583207.5,
         "spoiledKg": 29500,
         "spoilageRate": 0.29880982527222083,
-        "fulfilment": 0.3259285530049007,
-        "minDestinationFill": 0.1308411214953271,
+        "fulfilment": 0.31948026824864584,
+        "minDestinationFill": 0.1705607476635514,
         "markdownKg": 0,
-        "trucks": 27,
+        "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": 1133632.890416504,
-        "spoiledKg": 24158.392,
-        "spoilageRate": 0.24470389465687514,
-        "fulfilment": 0.3259285530049007,
-        "minDestinationFill": 0.1308411214953271,
-        "markdownKg": 5341.606282382789,
-        "trucks": 27,
+        "net": 929348.401894647,
+        "spoiledKg": 24347.163,
+        "spoilageRate": 0.2466159837933654,
+        "fulfilment": 0.31948026824864584,
+        "minDestinationFill": 0.1705607476635514,
+        "markdownKg": 5152.835282382789,
+        "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1814733.8312388984,
+        "net": 1545019.3072262928,
         "spoiledKg": 18310.782,
         "spoilageRate": 0.1854725955938212,
-        "fulfilment": 0.31507603172556103,
-        "minDestinationFill": 0.0227803738317757,
-        "markdownKg": 19212.102282080934,
-        "trucks": 28,
+        "fulfilment": 0.3097692029920041,
+        "minDestinationFill": 0.11786594626168224,
+        "markdownKg": 19479.537025241116,
+        "trucks": 27,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 38.536299999999756,
-      "consistencyGap": 0.5466446192003787,
+      "solveMs": 37.82679999999982,
+      "consistencyGap": 0.5029774873983115,
       "stress": {
         "futures": 100,
-        "fefo": 289532.70402819844,
-        "clearance": 492758.51436254696,
-        "optimizer": 648597.4873499428,
-        "optimizerP05": 34135.15025874507,
-        "clearanceP05": 53319.61586655816
+        "fefo": 142342.35191154125,
+        "clearance": 342959.11643159064,
+        "optimizer": 460562.70988107106,
+        "optimizerP05": -161950.86185066844,
+        "clearanceP05": -109806.94309879676
       }
     },
     {
@@ -930,10 +930,10 @@
       "inventoryKg": 70875,
       "demandKg": 138380,
       "fefo": {
-        "net": 1056122,
-        "spoiledKg": 15185,
-        "spoilageRate": 0.21425044091710757,
-        "fulfilment": 0.3463650816591993,
+        "net": 950725,
+        "spoiledKg": 15535,
+        "spoilageRate": 0.21918871252204586,
+        "fulfilment": 0.3443416678710796,
         "minDestinationFill": 0.12026239067055394,
         "markdownKg": 0,
         "trucks": 19,
@@ -941,18 +941,18 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1319068.619883651,
-        "spoiledKg": 11748.741000000002,
-        "spoilageRate": 0.16576706878306882,
-        "fulfilment": 0.3463650816591993,
+        "net": 1193746.29468526,
+        "spoiledKg": 11971.397,
+        "spoilageRate": 0.16890859964726632,
+        "fulfilment": 0.3443416678710796,
         "minDestinationFill": 0.12026239067055394,
-        "markdownKg": 3436.257039621017,
+        "markdownKg": 3563.601767924692,
         "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1879688.951255762,
+        "net": 1745599.4197101926,
         "spoiledKg": 5178.065,
         "spoilageRate": 0.07305911816578482,
         "fulfilment": 0.3389640554993496,
@@ -963,15 +963,15 @@
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 31.239399999999478,
-      "consistencyGap": 0.1280750553123653,
+      "solveMs": 31.93249999999989,
+      "consistencyGap": 0.10375860473141074,
       "stress": {
         "futures": 100,
-        "fefo": 882084.2805556485,
-        "clearance": 1030506.5882061301,
-        "optimizer": 1260685.6627013355,
-        "optimizerP05": 798910.2105585343,
-        "clearanceP05": 689304.626990267
+        "fefo": 783732.9910937208,
+        "clearance": 918672.3898177049,
+        "optimizer": 1159996.9524813285,
+        "optimizerP05": 725309.5855958695,
+        "clearanceP05": 649385.2039841327
       }
     },
     {
@@ -981,10 +981,10 @@
       "inventoryKg": 71675,
       "demandKg": 109000,
       "fefo": {
-        "net": 1133127,
-        "spoiledKg": 15285,
-        "spoilageRate": 0.2132542727589815,
-        "fulfilment": 0.35577981651376145,
+        "net": 1155822,
+        "spoiledKg": 15565,
+        "spoilageRate": 0.21716079525636553,
+        "fulfilment": 0.3540366972477064,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 20,
@@ -992,10 +992,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1241236.0437850805,
-        "spoiledKg": 13361.425000000001,
-        "spoilageRate": 0.18641681199860483,
-        "fulfilment": 0.35751278899082567,
+        "net": 1235202.8370794763,
+        "spoiledKg": 13641.425000000001,
+        "spoilageRate": 0.19032333449598884,
+        "fulfilment": 0.35576966972477064,
         "minDestinationFill": 0,
         "markdownKg": 1734.67924233507,
         "trucks": 20,
@@ -1003,26 +1003,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 2065062.1702603367,
+        "net": 2033626.4498394155,
         "spoiledKg": 12307.307000000003,
         "spoilageRate": 0.1717098988489711,
-        "fulfilment": 0.40615785321100917,
+        "fulfilment": 0.40615786238532114,
         "minDestinationFill": 0,
-        "markdownKg": 15096.475411338,
+        "markdownKg": 15096.475411338004,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 83.41010000000006,
-      "consistencyGap": 0.46981193497776985,
+      "solveMs": 76.51980000000003,
+      "consistencyGap": 0.4388271493371576,
       "stress": {
         "futures": 100,
-        "fefo": 966458.8626534754,
-        "clearance": 1017093.912259793,
-        "optimizer": 1426301.5983301944,
-        "optimizerP05": 1005304.2679690442,
-        "clearanceP05": 798583.3281194204
+        "fefo": 987468.7366541083,
+        "clearance": 1022368.478408767,
+        "optimizer": 1402842.9477458624,
+        "optimizerP05": 996667.6234177094,
+        "clearanceP05": 814024.2505892155
       }
     },
     {
@@ -1032,10 +1032,10 @@
       "inventoryKg": 97350,
       "demandKg": 91580,
       "fefo": {
-        "net": 1262523,
-        "spoiledKg": 23165,
-        "spoilageRate": 0.2379558294812532,
-        "fulfilment": 0.5945621314697532,
+        "net": 1157055,
+        "spoiledKg": 23205,
+        "spoilageRate": 0.238366718027735,
+        "fulfilment": 0.5941253548809784,
         "minDestinationFill": 0.20994475138121546,
         "markdownKg": 0,
         "trucks": 28,
@@ -1043,10 +1043,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1499481.4556226768,
-        "spoiledKg": 19803.426,
-        "spoilageRate": 0.20342502311248073,
-        "fulfilment": 0.5957672526752567,
+        "net": 1363918.4039375847,
+        "spoiledKg": 19843.426,
+        "spoilageRate": 0.2038359116589625,
+        "fulfilment": 0.5953304760864818,
         "minDestinationFill": 0.20994475138121546,
         "markdownKg": 3251.206260597634,
         "trucks": 28,
@@ -1054,26 +1054,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 2017232.4232216543,
+        "net": 1859150.0228318279,
         "spoiledKg": 14668.414000000002,
         "spoilageRate": 0.15067708269132,
-        "fulfilment": 0.5671019654946494,
-        "minDestinationFill": 0.21513138121546962,
-        "markdownKg": 18054.856445567275,
-        "trucks": 27,
+        "fulfilment": 0.5384477287617383,
+        "minDestinationFill": 0.14215202369200394,
+        "markdownKg": 17393.79197251403,
+        "trucks": 25,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 47.25280000000021,
-      "consistencyGap": 0.7112103719264269,
+      "solveMs": 49.39609999999993,
+      "consistencyGap": 0.5504525238648057,
       "stress": {
         "futures": 100,
-        "fefo": 915685.9829411474,
-        "clearance": 1018456.6382690812,
-        "optimizer": 1224488.1319000246,
-        "optimizerP05": 789363.7377094816,
-        "clearanceP05": 718835.2261810225
+        "fefo": 821356.1392311789,
+        "clearance": 906198.6533284262,
+        "optimizer": 1127847.8591958256,
+        "optimizerP05": 701359.1247657717,
+        "clearanceP05": 606487.3108468273
       }
     },
     {
@@ -1083,7 +1083,7 @@
       "inventoryKg": 44700,
       "demandKg": 109040,
       "fefo": {
-        "net": 35538,
+        "net": 18199,
         "spoiledKg": 17995,
         "spoilageRate": 0.40257270693512304,
         "fulfilment": 0.12394534115920763,
@@ -1094,7 +1094,7 @@
         "violations": 0
       },
       "clearance": {
-        "net": 211122.3069591534,
+        "net": 176480.56940003997,
         "spoiledKg": 15563.294000000002,
         "spoilageRate": 0.3481721252796421,
         "fulfilment": 0.12394534115920763,
@@ -1105,7 +1105,7 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 572305.536039216,
+        "net": 524738.8106809801,
         "spoiledKg": 13522.688,
         "spoilageRate": 0.30252098434004476,
         "fulfilment": 0.120244891782832,
@@ -1116,15 +1116,15 @@
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 50.48919999999998,
-      "consistencyGap": 0.30532104545272887,
+      "solveMs": 64.10809999999947,
+      "consistencyGap": 0.286901441286318,
       "stress": {
         "futures": 100,
-        "fefo": -125014.1718076158,
-        "clearance": -72108.53389077178,
-        "optimizer": 57907.35985660028,
-        "optimizerP05": -318535.3072457088,
-        "clearanceP05": -315703.16334099567
+        "fefo": -128507.30081803055,
+        "clearance": -84594.34051622754,
+        "optimizer": 37092.55069004186,
+        "optimizerP05": -324433.03480700153,
+        "clearanceP05": -286512.51044472767
       }
     },
     {
@@ -1134,48 +1134,48 @@
       "inventoryKg": 78925,
       "demandKg": 100280,
       "fefo": {
-        "net": 373555,
+        "net": 316772,
         "spoiledKg": 21965,
         "spoilageRate": 0.2783021856192588,
-        "fulfilment": 0.3082369365775828,
+        "fulfilment": 0.30544475468687676,
         "minDestinationFill": 0,
         "markdownKg": 0,
-        "trucks": 20,
+        "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": 586470.5328020046,
-        "spoiledKg": 18341.317,
-        "spoilageRate": 0.2323891922711435,
-        "fulfilment": 0.3091854307937774,
+        "net": 494377.2121316339,
+        "spoiledKg": 18429.335,
+        "spoilageRate": 0.233504402914159,
+        "fulfilment": 0.30627876944555243,
         "minDestinationFill": 0,
-        "markdownKg": 3528.5662630827906,
-        "trucks": 20,
+        "markdownKg": 3452.028544903335,
+        "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 807750.3932681005,
+        "net": 692517.4548403518,
         "spoiledKg": 15733.805,
         "spoilageRate": 0.19935134621476086,
-        "fulfilment": 0.320381112883925,
+        "fulfilment": 0.30865216394096534,
         "minDestinationFill": 0,
-        "markdownKg": 8490.329802966298,
-        "trucks": 23,
+        "markdownKg": 9310.38878743595,
+        "trucks": 22,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 41.539200000000164,
-      "consistencyGap": 0.3861751339863986,
+      "solveMs": 39.15930000000026,
+      "consistencyGap": 0.31412134028505534,
       "stress": {
         "futures": 100,
-        "fefo": 173869.91881676004,
-        "clearance": 296363.92298361054,
-        "optimizer": 345622.08546610066,
-        "optimizerP05": 69797.17928237643,
-        "clearanceP05": 95190.46042087045
+        "fefo": 148386.71597713485,
+        "clearance": 251774.81054660198,
+        "optimizer": 295930.3819592644,
+        "optimizerP05": 73455.52727246867,
+        "clearanceP05": 86494.60701332992
       }
     },
     {
@@ -1185,10 +1185,10 @@
       "inventoryKg": 77125,
       "demandKg": 94960,
       "fefo": {
-        "net": 906182.5,
-        "spoiledKg": 13975,
-        "spoilageRate": 0.1811993517017828,
-        "fulfilment": 0.35593934288121315,
+        "net": 886868,
+        "spoiledKg": 14340,
+        "spoilageRate": 0.1859319286871961,
+        "fulfilment": 0.37657961246840777,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 16,
@@ -1196,37 +1196,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1013526.0945598639,
-        "spoiledKg": 11518.155999999999,
-        "spoilageRate": 0.14934399999999998,
-        "fulfilment": 0.3569214406065711,
+        "net": 976253.1595027964,
+        "spoiledKg": 12054.547,
+        "spoilageRate": 0.15629882658022692,
+        "fulfilment": 0.3771934288121314,
         "minDestinationFill": 0,
-        "markdownKg": 2363.5824362372678,
+        "markdownKg": 2227.163596836534,
         "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1534212.4497533287,
-        "spoiledKg": 9095.786000000002,
-        "spoilageRate": 0.1179356369529984,
-        "fulfilment": 0.4627205770850884,
+        "net": 1425397.695308914,
+        "spoiledKg": 8902.61,
+        "spoilageRate": 0.1154309238249595,
+        "fulfilment": 0.4485040648694187,
         "minDestinationFill": 0,
-        "markdownKg": 9949.31800668462,
+        "markdownKg": 11370.49163684285,
         "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 91.32280000000083,
-      "consistencyGap": 0.17456226772628725,
+      "solveMs": 87.96129999999994,
+      "consistencyGap": 0.20251041161827743,
       "stress": {
         "futures": 100,
-        "fefo": 604168.0933228438,
-        "clearance": 653257.1032938684,
-        "optimizer": 904813.3003597066,
-        "optimizerP05": 552018.5108571161,
-        "clearanceP05": 447083.24267535895
+        "fefo": 577691.1706621983,
+        "clearance": 615403.3259419925,
+        "optimizer": 910417.6169633715,
+        "optimizerP05": 693974.5276767965,
+        "clearanceP05": 414854.4460762835
       }
     },
     {
@@ -1236,10 +1236,10 @@
       "inventoryKg": 102375,
       "demandKg": 161680,
       "fefo": {
-        "net": 1441114.5,
-        "spoiledKg": 32990,
-        "spoilageRate": 0.32224664224664223,
-        "fulfilment": 0.3725569025235032,
+        "net": 1327916.5,
+        "spoiledKg": 33260,
+        "spoilageRate": 0.3248840048840049,
+        "fulfilment": 0.37088693715982185,
         "minDestinationFill": 0.042529378847229994,
         "markdownKg": 0,
         "trucks": 23,
@@ -1247,37 +1247,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1759727.5512650385,
-        "spoiledKg": 28614.306,
-        "spoilageRate": 0.2795048205128205,
-        "fulfilment": 0.3735583250865908,
+        "net": 1606824.4945528903,
+        "spoiledKg": 28884.306,
+        "spoilageRate": 0.28214218315018313,
+        "fulfilment": 0.37188835972290946,
         "minDestinationFill": 0.042529378847229994,
-        "markdownKg": 4213.78150642354,
+        "markdownKg": 4213.781506423539,
         "trucks": 23,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 2692820.3412324637,
+        "net": 2520144.426426284,
         "spoiledKg": 22309.177,
         "spoilageRate": 0.21791625885225885,
-        "fulfilment": 0.37304606630381004,
+        "fulfilment": 0.37304606630381,
         "minDestinationFill": 0,
-        "markdownKg": 15421.72819959027,
+        "markdownKg": 15421.728199590269,
         "trucks": 22,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 40.193999999999505,
-      "consistencyGap": 0.3075857642106712,
+      "solveMs": 41.79349999999977,
+      "consistencyGap": 0.24160733865574002,
       "stress": {
         "futures": 100,
-        "fefo": 971707.901360194,
-        "clearance": 1142939.5139755874,
-        "optimizer": 1573632.9145884314,
-        "optimizerP05": 780233.624851644,
-        "clearanceP05": 639220.4487168542
+        "fefo": 867458.7937418311,
+        "clearance": 1016234.833634561,
+        "optimizer": 1431563.9945574563,
+        "optimizerP05": 678674.1532529816,
+        "clearanceP05": 492656.67739481595
       }
     },
     {
@@ -1287,10 +1287,10 @@
       "inventoryKg": 56675,
       "demandKg": 110190,
       "fefo": {
-        "net": -101749.5,
+        "net": -208084.5,
         "spoiledKg": 24150,
         "spoilageRate": 0.42611380679311867,
-        "fulfilment": 0.2305563118250295,
+        "fulfilment": 0.2183954986840911,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 16,
@@ -1298,10 +1298,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 56133.38168951345,
+        "net": -50201.618310486665,
         "spoiledKg": 21833.427,
         "spoilageRate": 0.38523911777679753,
-        "fulfilment": 0.2305563118250295,
+        "fulfilment": 0.2183954986840911,
         "minDestinationFill": 0,
         "markdownKg": 2316.5712611723093,
         "trucks": 16,
@@ -1309,26 +1309,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 279476.27450925694,
-        "spoiledKg": 19001.148,
-        "spoilageRate": 0.3352650727834142,
-        "fulfilment": 0.2397543788002541,
+        "net": 145803.0422061677,
+        "spoiledKg": 19276.728,
+        "spoilageRate": 0.3401275341861491,
+        "fulfilment": 0.2403659950993738,
         "minDestinationFill": 0,
-        "markdownKg": 7047.638515167454,
+        "markdownKg": 6547.319928974655,
         "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 64.94499999999971,
-      "consistencyGap": 0.27399397554108873,
+      "solveMs": 57.88639999999941,
+      "consistencyGap": 0.22508991757058538,
       "stress": {
         "futures": 100,
-        "fefo": -253158.62178591976,
-        "clearance": -172685.3477313541,
-        "optimizer": -64602.22051241818,
-        "optimizerP05": -398326.40968129004,
-        "clearanceP05": -315316.76191294694
+        "fefo": -340323.4981635237,
+        "clearance": -262646.7862068609,
+        "optimizer": -180724.03926915152,
+        "optimizerP05": -482865.59006839414,
+        "clearanceP05": -401048.1765728961
       }
     },
     {
@@ -1338,48 +1338,48 @@
       "inventoryKg": 108675,
       "demandKg": 147050,
       "fefo": {
-        "net": 1035530,
-        "spoiledKg": 32095,
-        "spoilageRate": 0.29533011272141707,
-        "fulfilment": 0.3694661679700782,
-        "minDestinationFill": 0,
+        "net": 899917,
+        "spoiledKg": 33385,
+        "spoilageRate": 0.3072003680699333,
+        "fulfilment": 0.35443726623597416,
+        "minDestinationFill": 0.060098522167487685,
         "markdownKg": 0,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": 1206863.7670700531,
-        "spoiledKg": 28631.868000000002,
-        "spoilageRate": 0.2634632436162871,
-        "fulfilment": 0.3694661679700782,
-        "minDestinationFill": 0,
-        "markdownKg": 3463.129015139199,
+        "net": 1009104.3270302907,
+        "spoiledKg": 30650.947,
+        "spoilageRate": 0.28204230043708306,
+        "fulfilment": 0.35550532471948315,
+        "minDestinationFill": 0.060098522167487685,
+        "markdownKg": 2576.992485461216,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1736497.5623302138,
-        "spoiledKg": 25300.689,
-        "spoilageRate": 0.23281057280883366,
-        "fulfilment": 0.3979292145528731,
+        "net": 1536843.063657044,
+        "spoiledKg": 26630.69,
+        "spoilageRate": 0.24504890729238554,
+        "fulfilment": 0.383264447466848,
         "minDestinationFill": 0,
-        "markdownKg": 17169.55429004474,
-        "trucks": 18,
+        "markdownKg": 17996.005760501277,
+        "trucks": 17,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 81.64370000000054,
-      "consistencyGap": 0.08930317545309663,
+      "solveMs": 115.98000000000138,
+      "consistencyGap": 0.1741524168755859,
       "stress": {
         "futures": 100,
-        "fefo": 639888.08584238,
-        "clearance": 706721.2708087271,
-        "optimizer": 998553.9643590762,
-        "optimizerP05": 460048.5334144775,
-        "clearanceP05": 341713.60796321
+        "fefo": 527354.8539409282,
+        "clearance": 576169.6929332027,
+        "optimizer": 965483.8196775796,
+        "optimizerP05": 517033.9688401832,
+        "clearanceP05": 278972.0328458161
       }
     },
     {
@@ -1389,10 +1389,10 @@
       "inventoryKg": 71000,
       "demandKg": 104150,
       "fefo": {
-        "net": 888593,
-        "spoiledKg": 17720,
-        "spoilageRate": 0.24957746478873238,
-        "fulfilment": 0.37225156024963996,
+        "net": 881826,
+        "spoiledKg": 17960,
+        "spoilageRate": 0.25295774647887326,
+        "fulfilment": 0.36754680748919827,
         "minDestinationFill": 0.20135527589545016,
         "markdownKg": 0,
         "trucks": 20,
@@ -1400,37 +1400,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1002094.7732227948,
-        "spoiledKg": 15823.729,
-        "spoilageRate": 0.22286942253521125,
-        "fulfilment": 0.37225156024963996,
+        "net": 973646.7750846772,
+        "spoiledKg": 16080.582,
+        "spoilageRate": 0.2264870704225352,
+        "fulfilment": 0.36754680748919827,
         "minDestinationFill": 0.20135527589545016,
-        "markdownKg": 1896.2688693961554,
+        "markdownKg": 1879.4158020594123,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1329814.344131402,
-        "spoiledKg": 14226.915,
-        "spoilageRate": 0.20037908450704225,
-        "fulfilment": 0.43258168987037926,
+        "net": 1281046.7689562738,
+        "spoiledKg": 14721.449999999999,
+        "spoilageRate": 0.20734436619718308,
+        "fulfilment": 0.42019989438310135,
         "minDestinationFill": 0,
-        "markdownKg": 9523.159655725553,
-        "trucks": 19,
+        "markdownKg": 9616.527113915403,
+        "trucks": 18,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 56.300499999999374,
-      "consistencyGap": 0.08250062284059823,
+      "solveMs": 44.15660000000025,
+      "consistencyGap": 0.09451689175330102,
       "stress": {
         "futures": 100,
-        "fefo": 622828.1768582365,
-        "clearance": 685653.9076440899,
-        "optimizer": 863104.6782159392,
-        "optimizerP05": 499167.87524235935,
-        "clearanceP05": 394092.4473631943
+        "fefo": 631014.7384879249,
+        "clearance": 680455.7606005169,
+        "optimizer": 900727.7962988676,
+        "optimizerP05": 659565.4338865703,
+        "clearanceP05": 437713.3034794871
       }
     },
     {
@@ -1440,48 +1440,48 @@
       "inventoryKg": 51800,
       "demandKg": 98200,
       "fefo": {
-        "net": 568016,
+        "net": 481071,
         "spoiledKg": 11320,
         "spoilageRate": 0.21853281853281853,
-        "fulfilment": 0.2744399185336049,
+        "fulfilment": 0.24745417515274948,
         "minDestinationFill": 0,
         "markdownKg": 0,
-        "trucks": 19,
+        "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": 589836.0812365676,
-        "spoiledKg": 10915.79,
-        "spoilageRate": 0.2107295366795367,
-        "fulfilment": 0.2744399185336049,
+        "net": 500172.653684042,
+        "spoiledKg": 10974.078,
+        "spoilageRate": 0.21185478764478763,
+        "fulfilment": 0.24804773930753565,
         "minDestinationFill": 0,
-        "markdownKg": 404.2095054693732,
-        "trucks": 19,
+        "markdownKg": 287.634,
+        "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 896132.4528988433,
-        "spoiledKg": 7819.629000000001,
-        "spoilageRate": 0.1509580888030888,
-        "fulfilment": 0.28045417515274945,
+        "net": 775256.3658058082,
+        "spoiledKg": 7916.775,
+        "spoilageRate": 0.1528334942084942,
+        "fulfilment": 0.24475560081466394,
         "minDestinationFill": 0,
-        "markdownKg": 8728.413449623464,
-        "trucks": 17,
+        "markdownKg": 7484.881574996274,
+        "trucks": 15,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 53.26680000000124,
-      "consistencyGap": 0.2589424073230475,
+      "solveMs": 55.22780000000057,
+      "consistencyGap": 0.20148202229756862,
       "stress": {
         "futures": 100,
-        "fefo": 389098.2089558839,
-        "clearance": 399857.6889372369,
-        "optimizer": 618626.1085122346,
-        "optimizerP05": 355167.5588303249,
-        "clearanceP05": 220014.84136640042
+        "fefo": 318866.33089624014,
+        "clearance": 328649.14389057545,
+        "optimizer": 541529.8812211631,
+        "optimizerP05": 285084.5958678195,
+        "clearanceP05": 150911.93192972074
       }
     },
     {
@@ -1491,10 +1491,10 @@
       "inventoryKg": 92525,
       "demandKg": 145650,
       "fefo": {
-        "net": 1149514.5,
-        "spoiledKg": 19820,
-        "spoilageRate": 0.21421237503377466,
-        "fulfilment": 0.3179196704428424,
+        "net": 1054477.5,
+        "spoiledKg": 21050,
+        "spoilageRate": 0.22750607943798973,
+        "fulfilment": 0.3078956402334363,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 16,
@@ -1502,37 +1502,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1279227.3234551875,
-        "spoiledKg": 16679.247,
-        "spoilageRate": 0.18026746284787895,
-        "fulfilment": 0.3193537178166838,
+        "net": 1182875.8554653001,
+        "spoiledKg": 17555.661,
+        "spoilageRate": 0.18973964874358282,
+        "fulfilment": 0.31016886371438374,
         "minDestinationFill": 0,
-        "markdownKg": 2931.88311594647,
+        "markdownKg": 3163.2423736039827,
         "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1972674.9882910086,
-        "spoiledKg": 12921.580000000002,
-        "spoilageRate": 0.139655012158876,
-        "fulfilment": 0.3432263714383797,
+        "net": 1839064.3413812374,
+        "spoiledKg": 13696.338000000002,
+        "spoilageRate": 0.14802851121318564,
+        "fulfilment": 0.3363456848609681,
         "minDestinationFill": 0,
-        "markdownKg": 18593.973904565137,
+        "markdownKg": 18849.215620391522,
         "trucks": 14,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 51.676799999999275,
-      "consistencyGap": 0.17032502125948668,
+      "solveMs": 39.102600000000166,
+      "consistencyGap": 0.2008508942089975,
       "stress": {
         "futures": 100,
-        "fefo": 945567.5653383355,
-        "clearance": 1020880.7379990852,
-        "optimizer": 1417369.3983428993,
-        "optimizerP05": 946210.4099031357,
-        "clearanceP05": 741426.5681256657
+        "fefo": 856647.9639805275,
+        "clearance": 935695.7419222533,
+        "optimizer": 1295926.1230759486,
+        "optimizerP05": 791552.8831393165,
+        "clearanceP05": 698491.8335875673
       }
     },
     {
@@ -1542,10 +1542,10 @@
       "inventoryKg": 98875,
       "demandKg": 117220,
       "fefo": {
-        "net": 627176.5,
-        "spoiledKg": 20390,
-        "spoilageRate": 0.20621997471554993,
-        "fulfilment": 0.3725900017061935,
+        "net": 528405.5,
+        "spoiledKg": 20690,
+        "spoilageRate": 0.20925410872313527,
+        "fulfilment": 0.388713530114315,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 20,
@@ -1553,37 +1553,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 861947.027002062,
+        "net": 766362.3103015944,
         "spoiledKg": 16352.916,
         "spoilageRate": 0.16538979519595448,
-        "fulfilment": 0.3725900017061935,
+        "fulfilment": 0.388713530114315,
         "minDestinationFill": 0,
-        "markdownKg": 4037.082869008143,
+        "markdownKg": 4337.081869008142,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1410115.7747889713,
+        "net": 1186553.2206428673,
         "spoiledKg": 14431.570999999998,
         "spoilageRate": 0.14595773451327432,
         "fulfilment": 0.4372981402491043,
         "minDestinationFill": 0,
-        "markdownKg": 14696.039707613549,
+        "markdownKg": 14696.039707613543,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 46.088299999999435,
-      "consistencyGap": 0.35478770616464317,
+      "solveMs": 51.53600000000006,
+      "consistencyGap": 0.321078906301409,
       "stress": {
         "futures": 100,
-        "fefo": 317234.40463500714,
-        "clearance": 409775.0008552669,
-        "optimizer": 528819.263408426,
-        "optimizerP05": 108835.549015878,
-        "clearanceP05": 109908.94147169637
+        "fefo": 228171.42656380072,
+        "clearance": 321394.42120546586,
+        "optimizer": 377692.66799402557,
+        "optimizerP05": -20077.66564670438,
+        "clearanceP05": 11751.048951427336
       }
     },
     {
@@ -1593,48 +1593,48 @@
       "inventoryKg": 57600,
       "demandKg": 127520,
       "fefo": {
-        "net": 990392,
-        "spoiledKg": 12860,
-        "spoilageRate": 0.2232638888888889,
-        "fulfilment": 0.3161072772898369,
+        "net": 910900,
+        "spoiledKg": 13630,
+        "spoilageRate": 0.23663194444444444,
+        "fulfilment": 0.3111668757841907,
         "minDestinationFill": 0,
         "markdownKg": 0,
-        "trucks": 21,
+        "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "clearance": {
-        "net": 1177971.164466568,
-        "spoiledKg": 9441.132,
-        "spoilageRate": 0.16390854166666666,
-        "fulfilment": 0.3161072772898369,
+        "net": 1050410.411494906,
+        "spoiledKg": 10211.131999999998,
+        "spoilageRate": 0.1772765972222222,
+        "fulfilment": 0.3111668757841907,
         "minDestinationFill": 0,
         "markdownKg": 3418.865686144415,
-        "trucks": 21,
+        "trucks": 24,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1421078.9413677482,
-        "spoiledKg": 9460.925,
-        "spoilageRate": 0.16425217013888888,
-        "fulfilment": 0.3176594494981179,
+        "net": 1352550.6937904106,
+        "spoiledKg": 9596.76,
+        "spoilageRate": 0.16661041666666668,
+        "fulfilment": 0.313280371706399,
         "minDestinationFill": 0,
-        "markdownKg": 6631.138900771292,
-        "trucks": 17,
+        "markdownKg": 7053.724023614466,
+        "trucks": 16,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 57.570099999999,
-      "consistencyGap": 0.08266256260685623,
+      "solveMs": 75.15799999999945,
+      "consistencyGap": 0.09373040241189301,
       "stress": {
         "futures": 100,
-        "fefo": 749048.3617024655,
-        "clearance": 853436.9174048847,
-        "optimizer": 919786.3778436669,
-        "optimizerP05": 556592.8679499441,
-        "clearanceP05": 631279.405448776
+        "fefo": 678906.5398090986,
+        "clearance": 760983.6104334141,
+        "optimizer": 883568.3863344905,
+        "optimizerP05": 529278.9142699887,
+        "clearanceP05": 549453.6579593063
       }
     },
     {
@@ -1644,10 +1644,10 @@
       "inventoryKg": 72400,
       "demandKg": 93150,
       "fefo": {
-        "net": 580252,
+        "net": 530892,
         "spoiledKg": 19510,
         "spoilageRate": 0.26947513812154694,
-        "fulfilment": 0.28556092324208265,
+        "fulfilment": 0.28051529790660223,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 20,
@@ -1655,10 +1655,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 755064.6382295312,
+        "net": 680563.9644187207,
         "spoiledKg": 17098.04,
         "spoilageRate": 0.236160773480663,
-        "fulfilment": 0.28556092324208265,
+        "fulfilment": 0.28051529790660223,
         "minDestinationFill": 0,
         "markdownKg": 2411.9578955669276,
         "trucks": 20,
@@ -1666,26 +1666,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 1332906.8639796101,
-        "spoiledKg": 9505.66,
-        "spoilageRate": 0.13129364640883978,
+        "net": 1241947.3614049386,
+        "spoiledKg": 9622.746,
+        "spoilageRate": 0.13291085635359115,
         "fulfilment": 0.30636387546967253,
         "minDestinationFill": 0,
-        "markdownKg": 12153.712812477987,
+        "markdownKg": 12036.626962206747,
         "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 37.379799999998795,
-      "consistencyGap": 0.28920111525803804,
+      "solveMs": 38.02599999999984,
+      "consistencyGap": 0.23612652975134552,
       "stress": {
         "futures": 100,
-        "fefo": 281602.3245195426,
-        "clearance": 393155.71598761785,
-        "optimizer": 718875.6862353769,
-        "optimizerP05": 340183.03493129066,
-        "clearanceP05": 159037.4569684976
+        "fefo": 254407.66761717037,
+        "clearance": 354370.9949800477,
+        "optimizer": 673003.8083412607,
+        "optimizerP05": 376320.18387516786,
+        "clearanceP05": 162330.81329688954
       }
     },
     {
@@ -1695,10 +1695,10 @@
       "inventoryKg": 71425,
       "demandKg": 106290,
       "fefo": {
-        "net": 458904,
-        "spoiledKg": 28275,
-        "spoilageRate": 0.3958697934896745,
-        "fulfilment": 0.2945714554520651,
+        "net": 450159,
+        "spoiledKg": 28575,
+        "spoilageRate": 0.400070003500175,
+        "fulfilment": 0.2917489886160504,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 20,
@@ -1706,10 +1706,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 585633.4754922308,
-        "spoiledKg": 25492.403,
-        "spoilageRate": 0.3569114875743787,
-        "fulfilment": 0.2945714554520651,
+        "net": 552297.3572471202,
+        "spoiledKg": 25792.403,
+        "spoilageRate": 0.3611116975848792,
+        "fulfilment": 0.2917489886160504,
         "minDestinationFill": 0,
         "markdownKg": 2782.5947032215327,
         "trucks": 20,
@@ -1717,26 +1717,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 785755.079231028,
+        "net": 751831.5777938123,
         "spoiledKg": 25579.434999999998,
         "spoilageRate": 0.35812999649982497,
-        "fulfilment": 0.329508599115627,
+        "fulfilment": 0.31959732806472857,
         "minDestinationFill": 0,
-        "markdownKg": 6442.839787202684,
-        "trucks": 18,
+        "markdownKg": 7319.334640372481,
+        "trucks": 17,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 105.08109999999942,
-      "consistencyGap": 0.17873155942652375,
+      "solveMs": 33.84929999999986,
+      "consistencyGap": 0.15448232856579125,
       "stress": {
         "futures": 100,
-        "fefo": 320328.58261985565,
-        "clearance": 386106.2852707763,
-        "optimizer": 498585.63767856604,
-        "optimizerP05": 200945.40926036716,
-        "clearanceP05": 188663.09825407423
+        "fefo": 317545.5527817666,
+        "clearance": 370181.89270266326,
+        "optimizer": 485086.57163200213,
+        "optimizerP05": 192114.32269739965,
+        "clearanceP05": 174428.34227434057
       }
     },
     {
@@ -1746,10 +1746,10 @@
       "inventoryKg": 94800,
       "demandKg": 122420,
       "fefo": {
-        "net": 1597265,
+        "net": 1446712,
         "spoiledKg": 15220,
         "spoilageRate": 0.16054852320675106,
-        "fulfilment": 0.472880248325437,
+        "fulfilment": 0.46659042640091486,
         "minDestinationFill": 0.06358381502890173,
         "markdownKg": 0,
         "trucks": 24,
@@ -1757,10 +1757,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1597265,
+        "net": 1446712,
         "spoiledKg": 15220,
         "spoilageRate": 0.16054852320675106,
-        "fulfilment": 0.472880248325437,
+        "fulfilment": 0.46659042640091486,
         "minDestinationFill": 0.06358381502890173,
         "markdownKg": 0,
         "trucks": 24,
@@ -1768,26 +1768,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 2029378.6567645753,
+        "net": 1855542.3926823759,
         "spoiledKg": 9768.118999999999,
         "spoilageRate": 0.1030392299578059,
         "fulfilment": 0.4429247263519033,
         "minDestinationFill": 0,
-        "markdownKg": 14018.076471047316,
+        "markdownKg": 14018.076278853856,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 153.39390000000094,
-      "consistencyGap": 0.3386497679166496,
+      "solveMs": 86.75950000000012,
+      "consistencyGap": 0.3072096125688404,
       "stress": {
         "futures": 100,
-        "fefo": 1300842.986138995,
-        "clearance": 1300842.986138995,
-        "optimizer": 1494515.0503851927,
-        "optimizerP05": 1063882.1589403802,
-        "clearanceP05": 1064664.9116511329
+        "fefo": 1180614.125046025,
+        "clearance": 1180614.125046025,
+        "optimizer": 1351109.856941174,
+        "optimizerP05": 945549.1680834356,
+        "clearanceP05": 922344.7012545314
       }
     },
     {
@@ -1797,7 +1797,7 @@
       "inventoryKg": 64350,
       "demandKg": 89350,
       "fefo": {
-        "net": 154250,
+        "net": 130828,
         "spoiledKg": 21990,
         "spoilageRate": 0.3417249417249417,
         "fulfilment": 0.3583659764969222,
@@ -1808,7 +1808,7 @@
         "violations": 0
       },
       "clearance": {
-        "net": 245704.19687241165,
+        "net": 206505.9763190524,
         "spoiledKg": 20147.225,
         "spoilageRate": 0.31308818958818957,
         "fulfilment": 0.3609241298265249,
@@ -1819,7 +1819,7 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 797465.3551437142,
+        "net": 725721.5445587849,
         "spoiledKg": 11094.33,
         "spoilageRate": 0.17240606060606062,
         "fulfilment": 0.3725433799664242,
@@ -1830,15 +1830,15 @@
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 53.98080000000118,
-      "consistencyGap": 0.2939918199554086,
+      "solveMs": 48.38119999999981,
+      "consistencyGap": 0.28432168427389115,
       "stress": {
         "futures": 100,
-        "fefo": 168347.9557869533,
-        "clearance": 221157.95734358038,
-        "optimizer": 597344.161138244,
-        "optimizerP05": 309175.0474715921,
-        "clearanceP05": -35318.51093166438
+        "fefo": 139847.3404377149,
+        "clearance": 184091.83178250695,
+        "optimizer": 541837.0275422593,
+        "optimizerP05": 250793.85479635763,
+        "clearanceP05": -61030.140996051254
       }
     },
     {
@@ -1848,9 +1848,9 @@
       "inventoryKg": 63150,
       "demandKg": 109700,
       "fefo": {
-        "net": 1003994,
-        "spoiledKg": 12635,
-        "spoilageRate": 0.20007917656373714,
+        "net": 919253,
+        "spoiledKg": 13575,
+        "spoilageRate": 0.21496437054631828,
         "fulfilment": 0.3263445761166819,
         "minDestinationFill": 0.12716763005780346,
         "markdownKg": 0,
@@ -1859,37 +1859,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1102956.226678927,
-        "spoiledKg": 10094.795,
-        "spoilageRate": 0.15985423594615994,
-        "fulfilment": 0.3273600182315406,
+        "net": 1027879.1864792453,
+        "spoiledKg": 10835.952000000001,
+        "spoilageRate": 0.17159068883610454,
+        "fulfilment": 0.3277142388331814,
         "minDestinationFill": 0.12716763005780346,
-        "markdownKg": 2428.8090116148546,
+        "markdownKg": 2588.793307891912,
         "trucks": 26,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 1623624.5086787934,
-        "spoiledKg": 6283.124,
-        "spoilageRate": 0.09949523357086303,
+        "net": 1487151.1298000854,
+        "spoiledKg": 6576.695,
+        "spoilageRate": 0.10414402216943784,
         "fulfilment": 0.33861042844120326,
         "minDestinationFill": 0,
-        "markdownKg": 11169.00611140835,
+        "markdownKg": 11169.00657020784,
         "trucks": 26,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 31.703999999999724,
-      "consistencyGap": 0.4515926248859614,
+      "solveMs": 29.77979999999843,
+      "consistencyGap": 0.42195154819637537,
       "stress": {
         "futures": 100,
-        "fefo": 674557.1768716477,
-        "clearance": 727083.9587282896,
-        "optimizer": 891383.3888592588,
-        "optimizerP05": 444227.7246384334,
-        "clearanceP05": 509571.7960137075
+        "fefo": 639783.5170739446,
+        "clearance": 697755.9820392886,
+        "optimizer": 821897.1646360738,
+        "optimizerP05": 409684.69553103094,
+        "clearanceP05": 517914.23092237464
       }
     },
     {
@@ -1899,10 +1899,10 @@
       "inventoryKg": 81050,
       "demandKg": 91030,
       "fefo": {
-        "net": 260957,
+        "net": 231717,
         "spoiledKg": 33990,
         "spoilageRate": 0.4193707587908698,
-        "fulfilment": 0.31308359881357795,
+        "fulfilment": 0.3117653520817313,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 20,
@@ -1910,10 +1910,10 @@
         "violations": 0
       },
       "clearance": {
-        "net": 386491.2503711303,
+        "net": 333363.96452604944,
         "spoiledKg": 31512.668999999998,
         "spoilageRate": 0.3888052930289944,
-        "fulfilment": 0.3150667801823575,
+        "fulfilment": 0.31374853345051085,
         "minDestinationFill": 0,
         "markdownKg": 2296.7994741593375,
         "trucks": 20,
@@ -1921,26 +1921,26 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 1003475.8137515639,
+        "net": 932684.6953291168,
         "spoiledKg": 26315.182,
         "spoilageRate": 0.324678371375694,
-        "fulfilment": 0.34362298143469183,
+        "fulfilment": 0.3399561353399978,
         "minDestinationFill": 0,
-        "markdownKg": 13973.269809406504,
-        "trucks": 20,
+        "markdownKg": 14307.063129340268,
+        "trucks": 19,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 50.3145999999997,
-      "consistencyGap": 0.5677975326543674,
+      "solveMs": 33.98840000000018,
+      "consistencyGap": 0.4746077227173373,
       "stress": {
         "futures": 100,
-        "fefo": 119320.805054443,
-        "clearance": 194017.00194731398,
-        "optimizer": 546253.3769904197,
-        "optimizerP05": 136570.1859344826,
-        "clearanceP05": -68263.4025627895
+        "fefo": 80598.81030776768,
+        "clearance": 143604.52869754354,
+        "optimizer": 492952.7080705,
+        "optimizerP05": 80165.22009300883,
+        "clearanceP05": -109982.92198617174
       }
     },
     {
@@ -1950,48 +1950,48 @@
       "inventoryKg": 87900,
       "demandKg": 162780,
       "fefo": {
-        "net": 1036058,
+        "net": 904309,
         "spoiledKg": 12350,
         "spoilageRate": 0.14050056882821388,
-        "fulfilment": 0.36343531146332475,
+        "fulfilment": 0.3441454724167588,
         "minDestinationFill": 0,
         "markdownKg": 0,
-        "trucks": 27,
-        "feasible": true,
-        "violations": 0
-      },
-      "clearance": {
-        "net": 1368301.6471982186,
-        "spoiledKg": 7931.092000000001,
-        "spoilageRate": 0.09022857792946531,
-        "fulfilment": 0.36343531146332475,
-        "minDestinationFill": 0,
-        "markdownKg": 4418.905327708767,
-        "trucks": 27,
-        "feasible": true,
-        "violations": 0
-      },
-      "optimizer": {
-        "net": 1691308.0177068706,
-        "spoiledKg": 6831.714999999999,
-        "spoilageRate": 0.07772144482366325,
-        "fulfilment": 0.3950116721956014,
-        "minDestinationFill": 0.1867704280155642,
-        "markdownKg": 11067.499403407515,
         "trucks": 26,
         "feasible": true,
         "violations": 0
       },
+      "clearance": {
+        "net": 1185078.0355149638,
+        "spoiledKg": 7931.092,
+        "spoilageRate": 0.0902285779294653,
+        "fulfilment": 0.3441454724167588,
+        "minDestinationFill": 0,
+        "markdownKg": 4418.905327708768,
+        "trucks": 26,
+        "feasible": true,
+        "violations": 0
+      },
+      "optimizer": {
+        "net": 1481532.479727922,
+        "spoiledKg": 6988.773999999999,
+        "spoilageRate": 0.07950823663253696,
+        "fulfilment": 0.38474507310480405,
+        "minDestinationFill": 0,
+        "markdownKg": 12211.636102311822,
+        "trucks": 25,
+        "feasible": true,
+        "violations": 0
+      },
       "status": "optimal",
-      "solveMs": 49.542600000000675,
-      "consistencyGap": 0.3257938080932945,
+      "solveMs": 43.50489999999991,
+      "consistencyGap": 0.30915353586897254,
       "stress": {
         "futures": 100,
-        "fefo": 646808.3470707871,
-        "clearance": 866779.6745768776,
-        "optimizer": 938411.8277070739,
-        "optimizerP05": 620878.2847898318,
-        "clearanceP05": 580921.0239498412
+        "fefo": 619485.9557050124,
+        "clearance": 818857.3922756593,
+        "optimizer": 870306.3316200417,
+        "optimizerP05": 553386.5847399023,
+        "clearanceP05": 600768.312476506
       }
     },
     {
@@ -2001,10 +2001,10 @@
       "inventoryKg": 89525,
       "demandKg": 134380,
       "fefo": {
-        "net": 1663503,
+        "net": 1517450,
         "spoiledKg": 13275,
         "spoilageRate": 0.1482826026249651,
-        "fulfilment": 0.37386515850573004,
+        "fulfilment": 0.36947462420002974,
         "minDestinationFill": 0,
         "markdownKg": 0,
         "trucks": 20,
@@ -2012,37 +2012,37 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1855212.7607858682,
-        "spoiledKg": 10212.301,
-        "spoilageRate": 0.11407205808433397,
-        "fulfilment": 0.37488207322518236,
+        "net": 1665491.4106697668,
+        "spoiledKg": 10581.456,
+        "spoilageRate": 0.11819554314437308,
+        "fulfilment": 0.3704915389194821,
         "minDestinationFill": 0,
-        "markdownKg": 2926.045000888275,
+        "markdownKg": 2556.8900008882756,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "optimizer": {
-        "net": 2637918.6229581763,
-        "spoiledKg": 6838.626,
-        "spoilageRate": 0.07638789165037699,
+        "net": 2411672.577252843,
+        "spoiledKg": 6991.725999999999,
+        "spoilageRate": 0.07809802848366376,
         "fulfilment": 0.39078571215954755,
         "minDestinationFill": 0,
-        "markdownKg": 14955.06800447075,
+        "markdownKg": 14801.967455650756,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 58.38810000000012,
-      "consistencyGap": 0.2997764488682151,
+      "solveMs": 33.83460000000014,
+      "consistencyGap": 0.2887103552930057,
       "stress": {
         "futures": 100,
-        "fefo": 1320040.1390082282,
-        "clearance": 1421015.9918830362,
-        "optimizer": 1830528.880970391,
-        "optimizerP05": 1366424.564548454,
-        "clearanceP05": 1151155.7210274911
+        "fefo": 1181954.1000853179,
+        "clearance": 1256766.389222885,
+        "optimizer": 1648478.434931346,
+        "optimizerP05": 1286482.6433172252,
+        "clearanceP05": 1025018.6494371516
       }
     },
     {
@@ -2052,7 +2052,7 @@
       "inventoryKg": 75225,
       "demandKg": 126750,
       "fefo": {
-        "net": 1454772,
+        "net": 1329036,
         "spoiledKg": 9605,
         "spoilageRate": 0.12768361581920903,
         "fulfilment": 0.39108481262327416,
@@ -2063,7 +2063,7 @@
         "violations": 0
       },
       "clearance": {
-        "net": 1636330.8482340279,
+        "net": 1510594.848234028,
         "spoiledKg": 7171.641,
         "spoilageRate": 0.09533587238285145,
         "fulfilment": 0.39163664694280076,
@@ -2074,40 +2074,40 @@
         "violations": 0
       },
       "optimizer": {
-        "net": 2284680.7779033636,
+        "net": 2090171.3539487664,
         "spoiledKg": 4787.165,
         "spoilageRate": 0.06363795280824194,
-        "fulfilment": 0.41391766469428004,
+        "fulfilment": 0.4152745009861933,
         "minDestinationFill": 0,
-        "markdownKg": 14488.550092268162,
+        "markdownKg": 14316.571949411018,
         "trucks": 20,
         "feasible": true,
         "violations": 0
       },
       "status": "optimal",
-      "solveMs": 82.36209999999846,
-      "consistencyGap": 0.3806335795670748,
+      "solveMs": 74.2551999999996,
+      "consistencyGap": 0.2971594547852874,
       "stress": {
         "futures": 100,
-        "fefo": 1242388.6754258256,
-        "clearance": 1336898.4733691846,
-        "optimizer": 1591002.2198666146,
-        "optimizerP05": 1131596.6688947696,
-        "clearanceP05": 1076800.1182341974
+        "fefo": 1117347.8145470477,
+        "clearance": 1209382.2731106502,
+        "optimizer": 1437756.5913210162,
+        "optimizerP05": 932100.5716484841,
+        "clearanceP05": 948636.024507401
       }
     }
   ],
   "summary": {
     "named": {
       "rows": 11,
-      "netGainVsFefo": 9895027.549617479,
-      "netGainVsClearance": 6392022.766739464,
-      "spoilageFefo": 0.2284782539021185,
-      "spoilageClearance": 0.17753418480176913,
-      "spoilageOptimizer": 0.1410291088426653,
-      "fulfilmentFefo": 0.4402979555613989,
-      "fulfilmentClearance": 0.44193746850074506,
-      "fulfilmentOptimizer": 0.4569281330802436,
+      "netGainVsFefo": 9331652.33652967,
+      "netGainVsClearance": 5919759.995337584,
+      "spoilageFefo": 0.23338194288644595,
+      "spoilageClearance": 0.17998539950642609,
+      "spoilageOptimizer": 0.1473886029293933,
+      "fulfilmentFefo": 0.43075231177140855,
+      "fulfilmentClearance": 0.43180602964216847,
+      "fulfilmentOptimizer": 0.45121626292838984,
       "optimizerWinsNet": 11,
       "ties": 0,
       "optimizerLosesNet": 0,
@@ -2115,14 +2115,14 @@
     },
     "random": {
       "rows": 30,
-      "netGainVsFefo": 20255703.219983768,
-      "netGainVsClearance": 14977199.265437886,
-      "spoilageFefo": 0.263219962221225,
-      "spoilageClearance": 0.22746317279093303,
-      "spoilageOptimizer": 0.18331675937424988,
-      "fulfilmentFefo": 0.340128232420562,
-      "fulfilmentClearance": 0.34061075690180614,
-      "fulfilmentOptimizer": 0.36063952824586565,
+      "netGainVsFefo": 18694349.320602365,
+      "netGainVsClearance": 13948592.979578668,
+      "spoilageFefo": 0.2661525135408731,
+      "spoilageClearance": 0.23052772231556748,
+      "spoilageOptimizer": 0.18533347721271953,
+      "fulfilmentFefo": 0.3360358871509882,
+      "fulfilmentClearance": 0.33661084037332495,
+      "fulfilmentOptimizer": 0.355181199300856,
       "optimizerWinsNet": 30,
       "ties": 0,
       "optimizerLosesNet": 0,
@@ -2135,45 +2135,45 @@
     "candidates": [
       {
         "kappa": 0,
-        "nominalNet": 3098108.937596977,
-        "trainMean": 1796109.5588841946,
-        "testMean": 1772249.8238620071
+        "nominalNet": 2860692.4333642796,
+        "trainMean": 1642549.178126286,
+        "testMean": 1619257.2560947826
       },
       {
         "kappa": 0.5,
-        "nominalNet": 2528152.089770025,
-        "trainMean": 1807689.2259445405,
-        "testMean": 1790518.942801918
+        "nominalNet": 2371018.474888882,
+        "trainMean": 1681359.7408815306,
+        "testMean": 1663989.8294059795
       },
       {
         "kappa": 1,
-        "nominalNet": 1948512.8611574618,
-        "trainMean": 1637650.6213277096
+        "nominalNet": 1786620.7830979985,
+        "trainMean": 1491385.0808983329
       },
       {
         "kappa": 1.5,
-        "nominalNet": 1315277.6615700542,
-        "trainMean": 1173427.8718188088
+        "nominalNet": 1213970.8322023645,
+        "trainMean": 1075678.4686843213
       },
       {
         "kappa": 2,
-        "nominalNet": 855695.5118359714,
-        "trainMean": 785661.6669083047
+        "nominalNet": 776656.2636421968,
+        "trainMean": 705342.9313450682
       }
     ],
     "chosenKappa": 0.5,
     "test": {
       "nominal": {
-        "mean": 1772249.8238620071,
-        "p05": 1094423.623046789
+        "mean": 1619257.2560947826,
+        "p05": 984650.1775340287
       },
       "chosen": {
-        "mean": 1790518.942801918,
-        "p05": 1289324.868293394
+        "mean": 1663989.8294059795,
+        "p05": 1186178.7765803472
       },
       "baseline": {
-        "mean": 1442594.581918545,
-        "p05": 889671.913505759
+        "mean": 1324016.3606536693,
+        "p05": 764468.686481181
       }
     }
   },
@@ -2182,66 +2182,66 @@
       "id": "del-delay",
       "title": "Delhi truck stuck behind a ghat landslide",
       "asOfDay": 1,
-      "staleNet": 2455372.8742423663,
+      "staleNet": 2260738.3357610316,
       "staleViolations": 17,
-      "replannedNet": 2803060.0885063447,
-      "staleSpoiled": 16853.88670058473,
-      "replannedSpoiled": 10271.303580730213,
-      "moved": 12
+      "replannedNet": 2579887.1510802596,
+      "staleSpoiled": 17823.25370058473,
+      "replannedSpoiled": 11445.203580730215,
+      "moved": 15
     },
     {
       "id": "strike",
       "title": "Transporter strike cuts the fleet",
       "asOfDay": 1,
-      "staleNet": 1914640.2681753875,
-      "staleViolations": 51,
-      "replannedNet": 2571756.198285156,
-      "staleSpoiled": 20784.007,
-      "replannedSpoiled": 10624.384999999998,
+      "staleNet": 1713985.9631381817,
+      "staleViolations": 50,
+      "replannedNet": 2360110.6698102914,
+      "staleSpoiled": 21611.427000000003,
+      "replannedSpoiled": 12074.565,
       "moved": 17
     },
     {
       "id": "mumbai-glut",
       "title": "Mumbai market glut",
       "asOfDay": 1,
-      "staleNet": 2674734.778799718,
+      "staleNet": 2456166.338313691,
       "staleViolations": 18,
-      "replannedNet": 2911177.4100995134,
-      "staleSpoiled": 12618.851703633532,
-      "replannedSpoiled": 7377.138000000001,
+      "replannedNet": 2684244.323805423,
+      "staleSpoiled": 13728.905703633533,
+      "replannedSpoiled": 8537.138,
       "moved": 17
     },
     {
       "id": "cold-room",
       "title": "Cold-room compressor failure",
       "asOfDay": 0,
-      "staleNet": 1277917.7298141406,
-      "staleViolations": 28,
-      "replannedNet": 2234861.1111735953,
-      "staleSpoiled": 21349.43769387755,
-      "replannedSpoiled": 12440.236,
+      "staleNet": 1067530.2154536275,
+      "staleViolations": 27,
+      "replannedNet": 1998316.2108501007,
+      "staleSpoiled": 22485.35606122449,
+      "replannedSpoiled": 13600.236,
       "moved": 14
     },
     {
       "id": "rush-order",
       "title": "Rush order from FreshKart",
       "asOfDay": 1,
-      "staleNet": 3081908.937596977,
+      "staleNet": 2844492.4333642796,
       "staleViolations": 0,
-      "replannedNet": 3128971.854718933,
-      "staleSpoiled": 6540.192,
-      "replannedSpoiled": 6540.192,
+      "replannedNet": 2890977.2998849344,
+      "staleSpoiled": 7700.192,
+      "replannedSpoiled": 7700.192,
       "moved": 10
     },
     {
       "id": "pune-closure",
       "title": "Pune lane closed for two nights",
       "asOfDay": 1,
-      "staleNet": 2827634.413861451,
+      "staleNet": 2600096.0162930493,
       "staleViolations": 16,
-      "replannedNet": 3014365.5308310464,
-      "staleSpoiled": 10788.135,
-      "replannedSpoiled": 7267.610000000001,
+      "replannedNet": 2783483.7139761252,
+      "staleSpoiled": 11948.134,
+      "replannedSpoiled": 8427.610000000002,
       "moved": 16
     }
   ]
